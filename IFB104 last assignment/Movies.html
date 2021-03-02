@@ -1,0 +1,1853 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" >
+	<head prefix="og: http://ogp.me/ns# flixstertomatoes: http://ogp.me/ns/apps/flixstertomatoes#">
+    <script src="//cdn.optimizely.com/js/594670329.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="google-site-verification" content="VPPXtECgUUeuATBacnqnCm4ydGO99reF-xgNklSbNbc" />
+
+    <meta name="msvalidate.01" content="034F16304017CA7DCF45D43850915323" />
+
+    <link href="https://staticv2-4.rottentomatoes.com/static/images/iphone/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="https://staticv2-4.rottentomatoes.com/static/images/icons/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://staticv2-4.rottentomatoes.com/static/styles/css/rt_main.css" rel="stylesheet" />
+
+    <script type="application/ld+json" id="jsonLdSchema">{"@context":"http://schema.org","@type":"ItemList","name":"Coming Soon to Theaters","itemListElement":[{"@type":"ListItem","position":0,"url":"/m/aladdin"},{"@type":"ListItem","position":1,"url":"/m/brightburn"},{"@type":"ListItem","position":2,"url":"/m/godzilla_king_of_the_monsters_2019"},{"@type":"ListItem","position":3,"url":"/m/rocketman_2019"},{"@type":"ListItem","position":4,"url":"/m/ma_2019"},{"@type":"ListItem","position":5,"url":"/m/dark_phoenix"},{"@type":"ListItem","position":6,"url":"/m/asterix_the_secret_of_the_magic_potion"},{"@type":"ListItem","position":7,"url":"/m/men_in_black_international"},{"@type":"ListItem","position":8,"url":"/m/wild_rose_2019"},{"@type":"ListItem","position":9,"url":"/m/toy_story_4"},{"@type":"ListItem","position":10,"url":"/m/the_secret_life_of_pets_2"},{"@type":"ListItem","position":11,"url":"/m/never_look_away"},{"@type":"ListItem","position":12,"url":"/m/childs_play_2019"},{"@type":"ListItem","position":13,"url":"/m/yesterday_2019"},{"@type":"ListItem","position":14,"url":"/m/spider_man_far_from_home"},{"@type":"ListItem","position":15,"url":"/m/rorys_way"},{"@type":"ListItem","position":16,"url":"/m/booksmart"},{"@type":"ListItem","position":17,"url":"/m/21_bridges"},{"@type":"ListItem","position":18,"url":"/m/stuber"},{"@type":"ListItem","position":19,"url":"/m/crawl_2019"},{"@type":"ListItem","position":20,"url":"/m/the_lion_king_2019"},{"@type":"ListItem","position":21,"url":"/m/late_night_2019"}]}</script>
+
+    <script>
+    var dataLayer = dataLayer || [];
+    </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+require.config({
+    baseUrl: "https://staticv2-4.rottentomatoes.com/static/",
+    waitSeconds: 60,
+    config: {
+        text: {
+            useXhr:function(url, protocol, hostname, port) {
+                return true;
+            }
+        }
+    },
+    paths: {
+        facebook : "//connect.facebook.net/en_US/all",
+        backbone: "//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min",
+        bootstrap: "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min",
+        device: "//cdnjs.cloudflare.com/ajax/libs/device.js/0.2.7/device.min",
+        marionette: "//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min",
+        moment: "//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min",
+        googleMapsApis: "//maps.googleapis.com/maps/api/js?key=AIzaSyD8S2D8G9CHplbCDFxKoHSnNJhb6o_h1Fo&libraries=places",
+        slick: "//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min",
+        text: "//cdnjs.cloudflare.com/ajax/libs/require-text/2.0.12/text.min",
+        typeahead: "//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.5/typeahead.bundle.min",
+        underscore: "//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min",
+        select2 : "//cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min",
+        jwplayer: "js/lib/jwplayer-7.4.3/jwplayer",
+        domReady: "//cdnjs.cloudflare.com/ajax/libs/require-domReady/2.0.1/domReady.min",
+        "js-cookie" : "//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.1/js.cookie.min",
+        "jquery-ui": "//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min",
+        scrollTo: "//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.14/jquery.scrollTo.min",
+        nouislider: "//cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.0.0/nouislider.min",
+        swiper: "js/lib/swiper.jquery.min",
+        hammer: "//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min",
+        rsvp: "//cdnjs.cloudflare.com/ajax/libs/rsvp/3.3.3/rsvp.min",
+        masonry: "//cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min",
+        dotdotdot: "//cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/1.7.4/jquery.dotdotdot.min",
+        readmore: "//cdnjs.cloudflare.com/ajax/libs/Readmore.js/2.0.5/readmore.min",
+        omniture: "dist/tracking/omniture.min",
+        "star-rating": "js/lib/star-rating/star-rating.min",
+        schema : "js/utils/schema",
+        rtClamp: "dist/utils/rtclamp.min",
+        vendor: 'dist/vendor',
+        'common-pure-react': 'dist/common-pure-react',
+        'common-react-redux': 'dist/common-react-redux',
+        'episode-list': 'dist/episode-list',
+        'friend-ratings': 'dist/friend-ratings',
+        'fullscreen-search': 'dist/fullscreen-search',
+        'location-utils': 'dist/location-utils',
+        'media-browser': 'dist/media-browser',
+        'photos-carousel': 'dist/photos-carousel-modal',
+        'photo-gallery': 'dist/photo-gallery',
+        'photo-rail': 'dist/photo-rail',
+        'rating-widget': 'dist/rating-widget',
+        'search-results': 'dist/search-results',
+        'videos-carousel': 'dist/videos-carousel',
+        recommendations: 'dist/recommendations',
+        'box-office': 'dist/box-office',
+        bezier: "js/bezierEasing",
+        profanityFilter: 'js/lib/profanityFilter',
+    },
+    // Note: jquery, underscore and backbone all support amds natively. no need for shim.
+    shim: {
+        "photos-carousel": {
+            deps: ["common-pure-react"]
+        },
+        "videos-carousel": {
+            deps: ["common-pure-react"]
+        },
+        "fullscreen-search": {
+            deps: ["common-pure-react"]
+        },
+        "location-utils": {
+            deps: ["common-pure-react"]
+        },
+        "friend-ratings": {
+            deps: ["common-pure-react"]
+        },
+        'rating-widget': {
+            deps: ["common-pure-react"]
+        },
+        'recommendations': {
+            deps: ["common-pure-react"]
+        },
+        'photo-rail': {
+            deps: ["common-pure-react"]
+        },
+        'search-results': {
+            deps: ["common-react-redux"]
+        },
+        'episode-list': {
+            deps: ["common-react-redux"]
+        },
+        'media-browser': {
+            deps: ["common-react-redux"]
+        },
+        "photo-gallery": {
+            deps: ["common-react-redux"]
+        },
+        'box-office': {
+            deps: ['common-react-redux']
+        },
+        'common-pure-react': {
+            deps: ["vendor"]
+        },
+        'common-react-redux': {
+            deps: ["vendor"]
+        },
+        "bootstrap" : {
+        	deps: ["jquery"]
+        },
+        "slick": {
+            deps: ["jquery"],
+            exports: "slick"
+        },
+        "text": {
+            deps: ["backbone"]
+        },
+        "marionette": {
+            deps: ["jquery", "underscore", "backbone"],
+            exports: "Marionette"
+        },
+		"jwplayer": {
+            exports: "jwplayer"
+        },
+        "select2" : {
+            deps: ["jquery"]
+        },
+        "domReady!": {
+            exports : "domReady!"
+        },
+        "facebook" : {
+            exports: "FB"
+        },
+        "scrollTo" : {
+            deps: ["jquery"]
+        },
+        "touchSwipe": {
+            deps: ["jquery"]
+        },
+        "typeahead": {
+            deps: ["jquery", "bootstrap"],
+            exports: "typeahead"
+        },
+        "swiper": {
+            deps: ["jquery"]
+        },
+        "nouislider": {
+            deps: ["jquery"]
+        },
+        "readmore": {
+            deps: ["jquery"]
+        },
+        "dotdotdot": {
+            deps: ["jquery"]
+        },
+        "jquery-ui": {
+            deps: ["jquery"]
+        }
+    }
+});
+</script>
+<script>
+define("globals", ["jquery", "underscore"], function($, _) {
+    _.templateSettings = {
+        interpolate: /\<\@\=(.+?)\@\>/gim,
+        evaluate: /\<\@(.+?)\@\>/gim
+    };
+    var RT = RT || {};
+    RT.Host = 'https://www.rottentomatoes.com';
+    RT.EditorialHost = 'https://editorial.rottentomatoes.com';
+    RT.ThePlatformAccountPid = 'HNK2IC';
+    RT.ThePlatformPlayerId = 'vPUdRgYktZD4';
+    RT.ThePlatformAccountId = '2474312077';
+    RT.LegacyPagesHost = 'https://www.rottentomatoes.com';
+    RT.PrivateApiFrontendHost = 'https://www.rottentomatoes.com';
+    RT.PrivateApiV2FrontendHost = 'https://www.rottentomatoes.com';
+    RT.ForumHost = 'https://forum.rottentomatoes.com';
+    RT.EditorialImageHost = 'https://editorial.rottentomatoes.com';
+    RT.StaticHost = 'https://staticv2-4.rottentomatoes.com';
+    RT.ShowtimesHost = 'https://api.flixster.com';
+    RT.NewsThrottle = {
+        homepage: false,
+        celebrity: false,
+        newsAndFeature: false,
+        episode: false,
+        season: false,
+        header: false,
+        movie: "Tomatometer" // State: Off, Tomatometer, Limited, On. Off will not throttle
+    };
+    RT.JwplayerKey='ojO88EQl2m4RQJPsd3tOAYLZOlgjKpMliIQMpA==';
+    RT.loginInit = $.Deferred();
+    RT.loginViewLoad = $.Deferred();
+    RT.fb_ready = $.Deferred();
+    RT.RecaptchaDeferred = $.Deferred();
+    RT.adPromises = [];
+    return RT;
+});
+</script>
+<script>
+    
+        var mpscall = {};
+        var BK = {};
+
+        mpscall = {
+            "site":"rottentomatoes-web",
+            "type":"upcoming", // page or content type
+            "cat":"movie|upcoming", // section hierarchy (pipe separated)
+            "field[env]":"prod" // execution environment
+        };
+
+        BK.PageName = "";
+        BK.SiteSection = "movie";
+
+        require(["js-cookie"], function(Cookies){
+            var user_id_key = "auth_user";
+            var userId = Cookies.get(user_id_key);
+            if (userId) {
+                BK.FlixsterUID=userId;
+            }
+        });
+
+        
+
+        var mpsopts = {
+            "host":"mps.nbcuni.com",
+            "updatecorrelator":true
+        }
+
+        var mps=mps||{};mps._ext=mps._ext||{};mps._adsheld=[];mps._queue=mps._queue||{};mps._queue.mpsloaded=mps._queue.mpsloaded||[];mps._queue.mpsinit=mps._queue.mpsinit||[];mps._queue.gptloaded=mps._queue.gptloaded||[];mps._queue.adload=mps._queue.adload||[];mps._queue.adclone=mps._queue.adclone||[];mps._queue.adview=mps._queue.adview||[];mps._queue.refreshads=mps._queue.refreshads||[];mps.__timer=Date.now();mps.__intcode="v2";if(typeof mps.getAd!="function")mps.getAd=function(adunit){if(typeof adunit!="string")return false;var slotid="mps-getad-"+adunit.replace(/\W/g,"");if(!mps._ext||!mps._ext.loaded){mps._queue.gptloaded.push(function(){typeof mps._gptfirst=="function"&&mps._gptfirst(adunit,slotid);mps.insertAd("#"+slotid,adunit)});mps._adsheld.push(adunit)}return'<div id="'+slotid+'" class="mps-wrapper" data-mps-fill-slot="'+adunit+'"></div>'};(function(){head=document.head||document.getElementsByTagName("head")[0],mpsload=document.createElement("script");mpsload.src="//"+mpsopts.host+"/fetch/ext/load-"+mpscall.site+".js?nowrite=2";mpsload.id="mps-load";head.insertBefore(mpsload,head.firstChild)})();
+    
+    flix_user_id = "";
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+    {n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+    ;if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1147905821962466');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=1147905821962466&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<script type="text/javascript">
+    var _sf_async_config = _sf_async_config || {};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 64558; // ACCOUNT NUMBER
+    _sf_async_config.domain = 'rottentomatoes.com'; // DOMAIN
+    _sf_async_config.flickerControl = false;
+    _sf_async_config.useCanonical = true;
+    /** CONFIGURATION END **/
+    var _sf_startpt = (new Date()).getTime();
+</script>
+<script async src="//static.chartbeat.com/js/chartbeat_mab.js"></script>
+
+<script src="//assets.adobedtm.com/a5fa26c3da5356c4d77ae8244dc4eb5096e2f4b0/satelliteLib-cbce2cb5d7b476a55d4d651acf340e0592b4f00c.js"></script>
+    <script>console.info("require:" + window.performance.now());</script>
+
+    <script>
+    function endsWith(str, suffix) {
+        return str.indexOf(suffix, str.length - suffix.length) !== -1;
+    }
+
+    //--Ad Unit Loaded (called for each ad loaded)
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.adload=mps._queue.adload||[];
+    mps._queue.adload.push(function(eo) {
+        window.console && console.log('**** AD LOADED: '+eo._mps.adslot);
+        if (!eo.isEmpty) {
+            console.log('MPS Slot Rendered: ' + eo.slot.getAdUnitPath() + " - " + eo.size + ', Creative Id: ' + eo.creativeId + ', Line Item Id: ' + eo.lineItemId +  ', Slot name: ' + eo._mps._slot);
+            var slotName = eo._mps._slot;
+            if ("interstitial" === slotName || "minterstitial" === slotName) {
+                require(["js-cookie"], function(Cookies){
+                    var pageViewCount = "pvc";
+                    var pageViewCountCookieValue = Cookies.get(pageViewCount);
+                    var date = new Date();
+                    var minutes = 60;
+                    date.setTime(date.getTime() + (minutes * 60 * 1000));
+                    if (pageViewCountCookieValue == null) {
+                        Cookies.set(pageViewCount, "1", {path: '/', expires : date});
+                    }
+                });
+            }
+
+            if ("topbanner" === slotName) {
+                var leaderboardHeight = eo.size[1];
+                if (leaderboardHeight > 50){
+                    
+                        $('#header-main').removeClass('header_main_scroll');
+                        $('#header-main').css('margin-top', leaderboardHeight + 10);
+                        var bannerEl = $('#header_and_leaderboard');
+                        bannerEl.addClass("header_and_leaderboard_scroll");
+                    
+                    if (leaderboardHeight < 90){
+                        $('.leaderboard_wrapper').css('min-height', leaderboardHeight);
+                    }
+                    $("#top_leaderboard_wrapper").animate({height:(leaderboardHeight+10)},1000);
+                }
+            }
+
+            if ("trendinggraphic" === slotName) {
+                //Hide Trending bar social section
+                $("#trending_bar_social").hide();
+                //Removing padding for trending bar ad
+                $(".trendingBar>.trendingEl").css("padding","0px");
+                $("#trending_bar_ad").show();
+            }
+
+            if ("tomatometer" === slotName) {
+                if (eo.size[0] == 524 && eo.size[1] == 40) {
+                    //Increase score panel margin
+                    $("#scorePanel").css("margin-bottom", "20px");
+                }
+                // Only show Tomatometer Sponsorship div if rendered
+                $("#tomatometer_sponsorship_ad").show();
+            }
+        }
+    });
+</script>
+
+<script>console.info("gpt-global:" + window.performance.now());</script>
+
+    <script>
+        var dataLayer = dataLayer || [];
+        dataLayer.push({ 'viewportType': window.innerWidth >= 768 ? "desktop_view" : "mobile_view" });
+        dataLayer.push({ 'rtVersion' : 2.0 });
+    </script>
+    <script>
+    require(["jquery"], function($) {
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start' : new Date().getTime(),
+                event : 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer'? '&l='
+                    + l
+                    : '';
+            j.async = true;
+            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', "GTM-TW7ZFZ");
+    });
+    </script>
+    <script>console.info("gtm:" + window.performance.now());</script>
+
+    <link rel="canonical" href="https://www.rottentomatoes.com/browse/upcoming/"/>
+
+        <link rel="alternate" href="android-app://net.flixster.android/flixster/upcoming" />
+            <title id="tabPageTitle">Top Movies - Upcoming in Theaters | Rotten Tomatoes</title>
+        <meta id="pageDescription" name="description" content='Find movies coming soon to theaters near you. Sort by critic rating, get movies times, buy tickets and watch trailers and interviews.'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.0.0/nouislider.min.css" />
+
+        <script>
+            var dataLayer = dataLayer || [];
+            dataLayer.push({
+                "listType" : "upcoming",
+                "pageName": "rt | browse | movies | list page | upcoming",
+                "channel": "informational",
+            });
+        </script>
+    <script>console.info("after page specific head tag content:" + window.performance.now());</script>
+
+    <script>console.info("bottom of head tag: " + window.performance.now());</script>
+    <script type="text/javascript">
+        var onRecaptchaCallback = function() {
+            require(["jquery", "globals"], function($, RT) {
+                RT.RecaptchaDeferred.resolve();
+            });
+        };
+    </script>
+    <script>
+        require([
+            "globals",
+            "https://staticv2-4.rottentomatoes.com/static/dist/app/models/LoginModel.min.js",
+        ], function(RT, LoginModel) {
+            RT.loginModel = new LoginModel();
+            RT.loginInit.resolve();
+        }.bind(this));
+    </script>
+</head>
+<body class="body  " >
+    <script>console.info("body-top:" + window.performance.now());</script>
+    <div id="emptyPlaceholder"></div> <div id="fb-root"></div>
+<script>
+require(['jquery', 'facebook', 'globals'], function($, FB, RT) {
+    FB.init({
+        appId: '326803741017',
+        version : 'v2.9',
+        status: true,
+        cookie: true,
+        xfbml: true
+    });
+
+    // FB scripts ready. (Does not imply logged in)
+    RT.fb_ready.resolve();
+});
+</script><script>console.info("facebook:" + window.performance.now());</script>
+
+    <!-- TODO: Put in long term targeting fix -->
+    <div id="overlay" style="height:0px;"></div>
+<script>
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+    mps._queue.gptloaded.push(function() {
+        if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+            require(["js-cookie"], function(Cookies){
+                var pageViewCount = Cookies.get("pvc");
+                if (pageViewCount == null || (parseInt(pageViewCount) == 0) || (parseInt(pageViewCount) % 3 == 0)) {
+                    mps.insertAd('#overlay','interstitial');
+                }
+            });
+        } else if (mps.getResponsiveSet() == '0') {
+            require(["js-cookie"], function(Cookies){
+                var pageViewCount = Cookies.get("pvc");
+                if (pageViewCount == null || (parseInt(pageViewCount) == 0) || (parseInt(pageViewCount) % 3 == 0)) {
+                    mps.insertAd('#overlay','minterstitial');
+                }
+            });
+        }
+    });
+</script>
+
+<script>
+            if (Math.max(document.documentElement.clientWidth, window.innerWidth || 0) > 768) {
+                //Leaderboard viewability scroll only loaded for desktop
+                require(["https://staticv2-4.rottentomatoes.com/static/dist/jspjs/leaderboardViewability.jsp.min.js"]);
+            }
+        </script>
+    <div id="navMenu" class="modal fade" role="dialog" aria-labelledby="navMenu">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" />
+                </button>
+                <div class="pull-left">
+                    <ul class="list-inline social">
+                        <li><a id="header-facebook-social-link" class="unstyled fontelloIcon icon-facebook-squared" href="http://www.facebook.com/rottentomatoes" target="_blank"></a></li>
+                        <li><a id="header-twitter-social-link" class="unstyled fontelloIcon icon-twitter" href="http://twitter.com/rottentomatoes" target="_blank"></a></li>
+                    </ul>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <a class="homeTab unstyled navLink fullLink" href="/">
+                            Home
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="boxofficeTab unstyled navLink fullLink" href="/lists/theater/">
+                            Top Box Office
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="theatersTab unstyled navLink fullLink" href="/theaters/">
+                            Tickets &amp; Showtimes
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="dvdTab unstyled navLink fullLink" href="/lists/dvd/">
+                            DVD &amp; Streaming
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="newsTab unstyled navLink fullLink" href="https://editorial.rottentomatoes.com">
+                            News
+                        </a>
+                    </div>
+                    </div>
+                <div class="loginArea"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body_main container">
+        <div id="header_and_leaderboard">
+            <div id="top_leaderboard_wrapper" class="leaderboard_wrapper ">
+        <div id="top_leaderboard_helper" class="leaderboard_helper">
+            <div id="leaderboard_top_ad"></div>
+            <script>
+                //--RESPONSIVE AD SWITCHING (DIFFERENT CONTAINERS)
+                var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+                mps._queue.gptloaded.push(function() {
+                    if (mps.getResponsiveSet() =='0') { //MOBILE
+                        mps.insertAd('#leaderboard_top_ad','mbanner');
+                    } else { //DESKTOP or TABLET
+                        mps.insertAd('#leaderboard_top_ad','topbanner');
+                    }
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+        <nav id="header-main" class="header_main container">
+    <div id="navbar" class="navbar navbar-rt" role="navigation">
+        <div class="navbar-header pull-right hidden-xs">
+            <div class="header_links">
+                <a id="header-whats-the-tomatometer" href="/about#whatisthetomatometer">What's the Tomatometer<sup>&reg;</sup>?</a>
+                <a id="header-top-bar-critics" href="/critics/">Critics</a>
+                <div id="headerUserSection" style="display: inline-block;"></div>
+            </div>
+        </div>
+        <div id="header_brand_column" class="col-sm-13 col-full-xs">
+            <div class="hidden-xs desktopNav">
+                <div id="navbar_brand" class="navbar-brand">
+                    <a id="header-rt-logo" href="/"><img id="original_rt_logo" src="https://staticv2-4.rottentomatoes.com/static/images/logos/rtlogo.png" /></a>
+                    <div id="new_logo_ad" style="display:none;"></div>
+<script>
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+    mps._queue.gptloaded.push(function() {
+        if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+            mps.rt.insertlogo('#new_logo_ad', 'ploc=rtlogo;');
+        }
+    });
+</script>
+
+</div>
+
+                <div id="desktop-search-root">
+                    <form action="/search/" method="get">
+                        <div class="navbar-searchbox main">
+                            <div class="input-group">
+                                <input name="search" type="text" class="form-control" placeholder="Search movies, TV, actors, more..." name="srch-term" id="search-term">
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default searchBtn">
+                                        <em class="glyphicon glyphicon-search"></em>
+                                    </button>
+                                </div>
+                                <div class="navbar-close">
+                                    <button type="button" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-remove" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <script>
+                    (function() {
+                        require(["fullscreen-search"], function(fullscreenSearch) {
+                            fullscreenSearch.mountDropdown(document.getElementById('desktop-search-root'));
+                        });
+                    })();
+                </script>
+            </div>
+
+            <div class="visible-xs mobileNav">
+                <div>
+                    <a id="mobile-search-button">
+                        <button class="pull-right navbar-button searchButton">
+                            <em class="glyphicon glyphicon-search white"></em>
+                        </button>
+                    </a>
+                    <script>
+                        (function() {
+                            require(["fullscreen-search"], function(fullscreenSearch) {
+                                fullscreenSearch.attach(document.getElementById('mobile-search-button'));
+                            });
+                        })();
+                    </script>
+                </div>
+
+                <div class="navbar-brand">
+                        <a id="header-rt-logo" href="/"> <img src="https://staticv2-4.rottentomatoes.com/static/images/logos/rtlogo.png" /></a>
+                    </div>
+                    <div id="mobile-nav">
+                        <div class="mob-nav-bottom clearfix">
+                            <ul id="nav-list" class="nav-list">
+                                <li class="nav-item">
+                                    <a href="/"><i class=" fontelloIcon icon-home"></i>Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/lists/theater/"><i class=" fontelloIcon icon-boxoffice"></i>Box Office</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="/lists/dvd/"><i class=" fontelloIcon icon-redeem"></i>DVD</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="menu-btn" class="menu-btn" href="javascript:void(0)">
+                                        <i class=" fontelloIcon icon-more"></i>MORE
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="mobile-nav-overlay" class="mobile-nav-overlay">
+                            <!--mobile dropdown-->
+                            <ul class="mobile-menu-panel">
+                                <li class="nav-item"><a href="https://editorial.rottentomatoes.com">News</a></li>
+                                <li class="nav-item clearfix d-block">
+                                    <div class="login-signup-box pull-left">
+                                        <a id="mobile-signup-btn" data-toggle="modal" data-target="#signup" class="signupLink login btn-login-signup">SIGN UP</a>
+                                        <a id="mobile-login-btn" data-toggle="modal" data-target="#login" class="loginLink login btn-login-signup">LOG IN</a>
+                                    </div>
+                                    <div class="social-media-box pull-right">
+                                        <a href="https://www.facebook.com/rottentomatoes">
+                                            <i class="fontelloIcon icon-facebook-squared" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://twitter.com/rottentomatoes">
+                                            <i class="fontelloIcon icon-twitter" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!--mobile dropdown end-->
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div id="menu" class="navbar-nav col-sm-11 hidden-xs">
+    <ul class="list-inline">
+        <li class="menuHeader center dropdown noSpacing">
+            <a id="movieMenu" role="button" class="h2 white" href="/browse/opening/">
+                Movies & DVDs<span class="fontelloIcon icon-down-dir"></span>
+            </a>
+            <div id="movie-menu" class="dropdown-menu" role="menu" aria-labelledby="movieMenu">
+                <div class="row-sameColumnHeight">
+                    <div class="col-xs-5 subnav">
+                        <div class="innerSubnav">
+                            <h2 class="title">Movies in Theaters</h2>
+                            <ul class="list-unstyled" id="header-movies-in-theaters">
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/opening/">Opening This Week</a>
+                                </li>
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/in-theaters/">Top Box Office</a>
+                                </li>
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/upcoming/">Coming Soon to Theaters</a>
+                                </li>
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/box-office/">Weekend Earnings</a>
+                                </li>
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/cf-in-theaters/">Certified Fresh Movies</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-5 subnav">
+                        <div class="innerSubnav">
+                            <a class="unstyled articleLink" href="/dvd/"><h2 class="title">On Dvd &amp; Streaming</h2></a>
+                            <ul class="list-unstyled" id="header-on-dvd-streaming">
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/dvd-streaming-all/?services=fandango_now">FandangoNOW</a>
+                                </li>
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/dvd-streaming-all/?services=netflix_iw">Netflix Streaming</a>
+                                </li>
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/dvd-streaming-all/?services=itunes">iTunes</a>
+                                </li>
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/dvd-streaming-all/?services=amazon_prime;amazon">Amazon and Amazon Prime</a>
+                                </li>
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/top-dvd-streaming/">Top DVD &amp; Streaming</a>
+                                </li>
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/dvd-streaming-new/">New Releases</a>
+                                </li>
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/dvd-streaming-upcoming/">Coming Soon to DVD</a>
+                                </li>
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/cf-dvd-streaming-all/">Certified Fresh Movies</a>
+                                </li>
+                                <li>
+                                    <a class="unstyled articleLink" href="/browse/dvd-streaming-all/">Browse All</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 subnav">
+                        <div class="innerSubnav">
+                            <h2 class="title">More</h2>
+                            <ul class="list-unstyled" id="header-movies-more">
+                                <li><a class="unstyled articleLink" href="/top/">Top Movies</a></li>
+                                <li><a class="unstyled articleLink" href="/trailers/">Trailers</a></li>
+                                <li><a class="unstyled articleLink" href="https://forum.rottentomatoes.com">Forums</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-11 subnav">
+                        <h2 class="title">Certified Fresh Picks</h2>
+                            <div class="freshPicks inDropdown" id="header-certified-fresh-picks">
+                                <div class="cfpItem">
+    <a href="/m/avengers_endgame" class="unstyled articleLink cfpLinks">
+        <p class="topText bold cfp-item-header"></p>
+        <div class="imgContainer">
+            <img src="https://resizing.flixster.com/Epec0-98FmkT0RNShtU_4yMPyho=/fit-in/278x400/v1.bTsxMzAxOTkzMjtqOzE4MTA1OzEyMDA7MTY4ODsyNTAw" />
+        </div>
+        <div class="movie_content_area">
+            <span class="icon tiny certified"></span>
+                    <span class="tMeterScore cfp-item-score">94%</span>
+                </div>
+        <p class="title noSpacing cfp-item-title">Avengers: Endgame</p>
+    </a>
+</div><div class="cfpItem">
+    <a href="/m/john_wick_chapter_3_parabellum" class="unstyled articleLink cfpLinks">
+        <p class="topText bold cfp-item-header"></p>
+        <div class="imgContainer">
+            <img src="https://resizing.flixster.com/LkE8oSHAzmOKN2x-7f9andzt05Q=/fit-in/278x400/v1.bTsxMzAyNzExOTtqOzE4MTA1OzEyMDA7MzYwMDs1NTUw" />
+        </div>
+        <div class="movie_content_area">
+            <span class="icon tiny certified"></span>
+                    <span class="tMeterScore cfp-item-score">89%</span>
+                </div>
+        <p class="title noSpacing cfp-item-title">John Wick: Chapter 3 - Parabellum</p>
+    </a>
+</div><div class="cfpItem">
+    <a href="/m/widows_2018" class="unstyled articleLink cfpLinks">
+        <p class="topText bold cfp-item-header"></p>
+        <div class="imgContainer">
+            <img src="https://resizing.flixster.com/kzEfT9LQAdMGxUsgyNeWi7KzTas=/fit-in/278x400/v1.bTsxMjg0MDk4NDtqOzE4MTAzOzEyMDA7NDgwMDs3NjAw" />
+        </div>
+        <div class="movie_content_area">
+            <span class="icon tiny certified"></span>
+                    <span class="tMeterScore cfp-item-score">91%</span>
+                </div>
+        <p class="title noSpacing cfp-item-title">Widows</p>
+    </a>
+</div></div>
+                        </div>
+                </div>
+            </div>
+        </li>
+        <li class="menuHeader center dropdown noSpacing dropdown-toggle">
+            <a id="tvMenu" class="h2" href="/top-tv/"> TV<span class="fontelloIcon icon-down-dir" /></a>
+            <div id="tvMenuDropdown" class="dropdown-menu" role="menu" aria-labelledby="tvMenu">
+                <div class="row-sameColumnHeight">
+                    <div class="col-xs-7 subnav">
+                        <div class="innerSubnav" id="header-tv-col1">
+                                <div class="clickForMore">
+                                    <a id="tv-list-21-view-all" class="unstyled articleLink" href="/browse/tv-list-1/">
+                                        View All
+                                    </a>
+                                </div>
+                                <h2 class="title">New TV Tonight</h2>
+                                <table id="tv-list-21" class="movie_list tv_list">
+                                    <tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/saturday_night_live/s44">
+            <span class="icon tiny fresh"></span>
+                    <span class="tMeterScore">69%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/saturday_night_live/s44">Saturday Night Live</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/ransom/s03">
+            <span class="tMeterIcon tiny noRating">No Score Yet</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/ransom/s03">Ransom</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/the_son/s02">
+            <span class="tMeterIcon tiny noRating">No Score Yet</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/the_son/s02">The Son</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/the_book_of_john_gray/s01">
+            <span class="tMeterIcon tiny noRating">No Score Yet</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/the_book_of_john_gray/s01">The Book of John Gray</a>
+    </td>
+</tr></table>
+                            </div>
+                        </div>
+                    <div class="col-xs-7 subnav">
+                        <div class="innerSubnav" id="header-tv-col2">
+                                <div class="clickForMore">
+                                    <a id="tv-list-24-view-all" class="unstyled articleLink" href="/browse/tv-list-2/">
+                                        View All
+                                    </a>
+                                </div>
+                                <h2 class="title">Most Popular TV on RT</h2>
+                                <table id="tv-list-24" class="movie_list tv_list">
+                                    <tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/game-of-thrones/s08">
+            <span class="icon tiny fresh"></span>
+                    <span class="tMeterScore">71%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/game-of-thrones/s08">Game of Thrones</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/chernobyl/s01">
+            <span class="icon tiny certified_fresh"></span>
+                    <span class="tMeterScore">95%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/chernobyl/s01">Chernobyl</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/lucifer/s04">
+            <span class="icon tiny fresh"></span>
+                    <span class="tMeterScore">100%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/lucifer/s04">Lucifer</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/dead_to_me/s01">
+            <span class="icon tiny certified_fresh"></span>
+                    <span class="tMeterScore">86%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/dead_to_me/s01">Dead to Me</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/the_society/s01">
+            <span class="icon tiny fresh"></span>
+                    <span class="tMeterScore">74%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/the_society/s01">The Society</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/barry/s02">
+            <span class="icon tiny certified_fresh"></span>
+                    <span class="tMeterScore">100%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/barry/s02">Barry</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/better_things/s03">
+            <span class="icon tiny certified_fresh"></span>
+                    <span class="tMeterScore">100%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/better_things/s03">Better Things</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/state_of_the_union/s01">
+            <span class="icon tiny fresh"></span>
+                    <span class="tMeterScore">100%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/state_of_the_union/s01">State of the Union</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/a_discovery_of_witches/s01">
+            <span class="icon tiny certified_fresh"></span>
+                    <span class="tMeterScore">100%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/a_discovery_of_witches/s01">A Discovery of Witches</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/brooklyn_nine_nine/s06">
+            <span class="icon tiny certified_fresh"></span>
+                    <span class="tMeterScore">100%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/brooklyn_nine_nine/s06">Brooklyn Nine-Nine</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/killing_eve/s02">
+            <span class="icon tiny certified_fresh"></span>
+                    <span class="tMeterScore">97%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/killing_eve/s02">Killing Eve</a>
+    </td>
+</tr><tr class="tv_show_tr tvTopListTitle">
+    <td class="left_col">
+        <a href="https://www.rottentomatoes.com/tv/tuca_bertie/s01">
+            <span class="icon tiny certified_fresh"></span>
+                    <span class="tMeterScore">100%</span>
+                </a>
+    </td>
+    <td class="middle_col">
+        <a href="https://www.rottentomatoes.com/tv/tuca_bertie/s01">Tuca & Bertie</a>
+    </td>
+</tr></table>
+                            </div>
+                        </div>
+                    <div class="col-xs-5 subnav">
+                        <div class="innerSubnav">
+                            <h2 class="title">More</h2>
+                            <ul class="list-unstyled" id="header-tv-more">
+                                <li><a class="unstyled articleLink" href="/top-tv/">Top TV Shows</a></li>
+                                <li><a class="unstyled articleLink" href="/browse/tv-list-3/">Certified Fresh TV</a></li>
+                            </ul>
+                            <h2 class="title" style="margin-top: 20px">Episodic Reviews</h2>
+                            <ul class="list-unstyled" id="header-tv-episodic-reviews">
+                                <li><a href="/tv/american_gods/s02/#desktopEpisodeList"> American Gods: Season 2</a></li>
+                                <li><a href="/tv/arrow/s07/#desktopEpisodeList"> Arrow: Season 7</a></li>
+                                <li><a href="/tv/billions/s04/#desktopEpisodeList"> Billions: Season 4</a></li>
+                                <li><a href="/tv/dc_s_legends_of_tomorrow/s04/#desktopEpisodeList"> DC's Legends of Tomorrow: Season 4</a></li>
+                                <li><a href="/tv/game-of-thrones/s08/#desktopEpisodeList"> Game of Thrones: Season 8</a></li>
+                                <li><a href="/tv/killing_eve/s02/#desktopEpisodeList"> Killing Eve: Season 2</a></li>
+                                <li><a href="/tv/flash/s05/#desktopEpisodeList"> The Flash: Season 5</a></li>
+                                <li><a href="/tv/riverdale/s03/#desktopEpisodeList"> Riverdale: Season 3</a></li>
+                                <li><a href="/tv/saturday_night_live/s44/#desktopEpisodeList"> Saturday Night Live: Season 44</a></li>
+                                <li><a href="/tv/supergirl/s04/#desktopEpisodeList"> Supergirl: Season 4</a></li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-5 subnav freshPicks inDropdownTv">
+                        <div class="innerSubnav">
+                                <h2 class="title">Certified Fresh Pick</h2>
+                                <div class="cfpItem">
+    <a href="/tv/the_walking_dead/s09" class="unstyled articleLink cfpLinks">
+        <div class="imgContainer">
+            <img src="https://resizing.flixster.com/6MouauJUPwWFb5pDUfLtOHSCvk4=/fit-in/278x400/v1.dDszOTQ1NDY7ajsxODA0OTsxMjAwOzIwNTI7MzUwMA" />
+        </div>
+        <div class="movie_content_area">
+            <span class="icon tiny certified"></span>
+                    <span class="tMeterScore cfp-item-score">90%</span>
+                </div>
+        <p class="title noSpacing cfp-item-title">The Walking Dead</p>
+    </a>
+</div></div>
+                        </div>
+                </div>
+            </div>
+        </li>
+        <li class="menuHeader center dropdown noSpacing dropdown-toggle">
+            <a id="newsMenu" class="h2" href="https://editorial.rottentomatoes.com">
+                News<span class="fontelloIcon icon-down-dir" />
+            </a>
+            <div class="dropdown-menu" role="menu" aria-labelledby="newsMenu">
+                <div class="row-sameColumnHeight noSpacing">
+                    <div class="col-xs-4 subnav">
+                        <div class="innerSubnav" id="header-news-columns">
+                            <h2 class="title">Columns</h2>
+                            <ul class="list-unstyled">
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/24-frames/" data-pageheader="24 Frames">24 Frames</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/all-time-lists/" data-pageheader="All-Time Lists">All-Time Lists</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/binge-guide/" data-pageheader="Binge Guide">Binge Guide</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/comics-on-tv/" data-pageheader="Comics on TV">Comics on TV</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/countdown/" data-pageheader="Countdown">Countdown</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/critics-consensus/" data-pageheader="Critics Consensus">Critics Consensus</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/five-favorite-films/" data-pageheader="Five Favorite Films">Five Favorite Films</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/now-streaming/" data-pageheader="Now Streaming">Now Streaming</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/parental-guidance/" data-pageheader="Parental Guidance">Parental Guidance</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/red-carpet-roundup/" data-pageheader="Red Carpet Roundup">Red Carpet Roundup</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/movie-tv-scorecards/" data-pageheader="Scorecards">Scorecards</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/sub-cult/" data-pageheader="Sub-Cult">Sub-Cult</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/total-recall/" data-pageheader="Total Recall">Total Recall</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/video-interviews/" data-pageheader="Video Interviews">Video Interviews</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/weekend-box-office/" data-pageheader="Weekend Box Office">Weekend Box Office</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/weekly-ketchup/" data-pageheader="Weekly Ketchup">Weekly Ketchup</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/what-to-watch/" data-pageheader="What to Watch">What to Watch</a></li>
+                                <li><a class="unstyled articleLink" href="https://editorial.rottentomatoes.com/the-zeros/" data-pageheader="The Zeros">The Zeros</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 subnav">
+                        <div class="innerSubnav" id="header-news-best-worst">
+                                <div class="clickForMore">
+                                    <a class="unstyled articleLink" data-pageheader="Best and Worst - Show All" href="https://editorial.rottentomatoes.com/total-recall/">View All</a>
+                                </div>
+                                <h2 class="title">Best and Worst</h2>
+                                <div class="newsContainer">
+                                    <div class="newsContainerItem">
+                                            <a href="https://editorial.rottentomatoes.com/article/sidney-poitiers-7-most-memorable-performances/" class="articleLink unstyled">
+                                                <div class="newsPhoto" style="background-image:url('https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2018/01/09155023/Sidney-Poitier-Memorable.jpg')"></div>
+                                                <div class="newsTitle">
+                                                        Sidney Poitier&#8217;s 7 Most Memorable Performances</div>
+                                            </a>
+                                        </div>
+                                    <div class="newsContainerItem">
+                                            <a href="https://editorial.rottentomatoes.com/article/total-recall-harry-potter-movies/" class="articleLink unstyled">
+                                                <div class="newsPhoto" style="background-image:url('https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2011/07/09155748/Harry-Potter-Movies.jpg')"></div>
+                                                <div class="newsTitle">
+                                                        All Harry Potter Movies Ranked Worst to Best by Tomatometer</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    <div class="col-xs-6 subnav">
+                        <div class="innerSubnav" id="header-news-guides">
+                                <div class="clickForMore">
+                                    <a class="unstyled articleLink" data-pageheader="Guides - Show All" href="https://editorial.rottentomatoes.com/rt-hubs/">View All</a>
+                                </div>
+                                <h2 class="title">Guides</h2>
+                                <div class="newsContainer">
+                                    <div class="newsContainerItem">
+                                            <a href="https://editorial.rottentomatoes.com/rt-hub/summer-movie-guide-2019/" class="articleLink unstyled">
+                                                <div class="newsPhoto" style="background-image:url('https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2019/05/06170347/Summer_Movie_Hub_2019_Rep.jpg')"></div>
+                                                <div class="newsTitle">
+                                                    Summer Movie Guide 2019</div>
+                                            </a>
+                                        </div>
+                                    <div class="newsContainerItem">
+                                            <a href="https://editorial.rottentomatoes.com/rt-hub/spring-summer-tv-guide-2019/" class="articleLink unstyled">
+                                                <div class="newsPhoto" style="background-image:url('https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2019/04/01155136/RT_Spring-summer-Guide_2019_600X314.jpg')"></div>
+                                                <div class="newsTitle">
+                                                    Spring/Summer TV Guide 2019</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    <div class="col-xs-6 subnav">
+                        <div class="innerSubnav" id="header-news-rtnews">
+                                <div class="clickForMore" style="margin-bottom: 0">
+                                    <a class="unstyled articleLink" data-pageheader="RT News - Show All" href="https://editorial.rottentomatoes.com/news/">View All</a>
+                                </div>
+                                <h2 class="title">RT News</h2>
+                                <div class="newsContainer">
+                                    <div class="newsContainerItem">
+                                            <a href="https://editorial.rottentomatoes.com/article/the-cannes-ketchup/" class="articleLink unstyled">
+                                                <div class="newsPhoto" style="background-image:url('https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2019/05/18090609/Robert-Pattinson.jpg')"></div>
+                                                <div class="newsTitle">
+                                                    The Cannes Ketchup: Robert Pattinson Arrives As <em>Batman</em> Rumors Swirl, Plus Rom-Com Renaissance Continues</div>
+                                            </a>
+                                        </div>
+                                    <div class="newsContainerItem">
+                                            <a href="https://editorial.rottentomatoes.com/article/hear-us-out-the-phantom-menace-is-still-the-purest-star-wars-movie/" class="articleLink unstyled">
+                                                <div class="newsPhoto" style="background-image:url('https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2019/05/17163807/Phantom-Menace-Featured1.jpg')"></div>
+                                                <div class="newsTitle">
+                                                    Hear Us Out: <em>The Phantom Menace</em> Is Still The Purest Star Wars Movie</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </li>
+        <li class="h2 menuHeader center noSpacing" style="border-radius: 5px" id="header-tickets-showtimes">
+            <a id="ticketingMenu" href="/showtimes/" class="menuHeader"> Tickets &amp; Showtimes </a>
+        </li>
+    </ul>
+</div>
+</div>
+    <div class="trendingBar hidden-xs">
+        <div class="fr">
+            <ul id="trending_bar_social" class="list-inline social">
+                <li class="header"></li>
+                <li><a id="header-facebook-social-link" class="unstyled trendingLink fontelloIcon icon-facebook-squared white" href="http://www.facebook.com/rottentomatoes" target="_blank"></a></li>
+                <li><a id="header-twitter-social-link" class="unstyled trendingLink fontelloIcon icon-twitter white" href="http://twitter.com/rottentomatoes" target="_blank"></a></li>
+                <li><a id="header-instagram-social-link" class="unstyled trendingLink fontelloIcon icon-instagram white" href="https://www.instagram.com/rottentomatoes/"></a></li>
+                <li><a id="header-snapchat-social-link" class="unstyled trendingLink fontelloIcon icon-snapchat white" href="https://www.snapchat.com/add/rottentomatoes"></a></li>
+                <li><a id="header-youtube-social-link" class="unstyled trendingLink fontelloIcon icon-youtube-play white" href="http://www.youtube.com/user/rottentomatoes" target="_blank"></a></li>
+            </ul>
+            <div id="trending_bar_ad" style="display: none;"></div>
+            <script>
+                var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+                mps._queue.gptloaded.push(function() {
+                    if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+                        mps.insertAd('#trending_bar_ad','trendinggraphic');
+                    }
+                });
+            </script>
+        </div>
+        <ul class="list-inline trendingEl">
+            <li class="header">Trending on RT</li>
+            <li><a class="unstyled trendingLink" href="https://editorial.rottentomatoes.com/article/game-of-thrones-season-8-episode-5-top-moments/" > Game of Thrones</a></li>
+            <li><a class="unstyled trendingLink" href="https://editorial.rottentomatoes.com/guide/video-game-movies-ranked-worst-to-best/" > 41 Video Game Movies Ranked</a></li>
+            <li><a class="unstyled trendingLink" href="https://editorial.rottentomatoes.com/article/the-5-most-anticipated-movies-opening-in-may/" > May's Most Anticipated Movies</a></li>
+            <li><a class="unstyled trendingLink" href="https://editorial.rottentomatoes.com/article/john-wick-chapter-3-first-reactions-with-a-perfect-keanu-reeves-and-insane-action-parabellum-is-right-on-target/" > John Wick 3 Reviews</a></li>
+            </ul>
+    </div>
+</nav>
+<div id="main_container" class="container ">
+            <div id="main-row" class="row" >
+            <div id="navigation-column" class="col-left hidden-xs" style="visibility:hidden">
+                <nav id="browser-navigator" class="browser-navigator">
+                    <ul class="nav nav-pills nav-stacked navigator-menu">
+                        <li data-type="header" class="nav-header mb-navheader"><h3>IN THEATERS</h3></li>
+                        <li data-type="opening" data-tabTitle="Top Movies - Opening in Theaters | Rotten Tomatoes" data-pageDescription="Find movies opening in theaters near you. Sort by critic rating, get movie times, buy tickets, and watch trailers and interviews." data-title="OPENING THIS WEEK"><a href="#">Opening This Week</a></li>
+                        <li data-type="in-theaters" data-tabTitle="Top Movies - Top Box Office | Rotten Tomatoes" data-pageDescription="Find movies currently in theaters near you. Sort by critic rating, get movie times, buy tickets and watch trailers and interviews." data-title="TOP BOX OFFICE"><a href="#">Top Box Office</a></li>
+                        <li data-type="upcoming" data-tabTitle="Top Movies - Upcoming in Theaters | Rotten Tomatoes" data-pageDescription="Find movies coming soon to theaters near you. Sort by critic rating, get movies times, buy tickets and watch trailers and interviews." data-title="COMING SOON TO THEATERS" class="active"><a href="#">Coming Soon</a></li>
+                        <li data-type="cf-in-theaters" data-tabTitle="Top Movies - Certified Fresh in Theaters | Rotten Tomatoes" data-pageDescription="Check out what movies are Certified Fresh in theaters! Sort by critic rating, get movies times, buy tickets and watch trailers and interviews." data-title="CERTIFIED FRESH MOVIES IN THEATERS" ><a href="#">Certified Fresh Movies</a></li>
+                        <li data-type="header" class="nav-header mb-navheader"><h3>DVD & STREAMING MOVIES</h3></li>
+                        <li data-type="dvd-streaming-all" data-tabTitle="Top Movies - Netflix, Amazon, iTunes, DVD | Rotten Tomatoes" data-pageDescription="Find movies playing on Netflix, Amazon, iTunes, HBO and DVD. Sort by critic rating, filter by genre, watch trailers and read reviews." data-title="BROWSE ALL DVDS &amp; STREAMING" ><a href="#">Browse All</a></li>
+                        <li data-type="top-dvd-streaming" data-tabTitle="Top DVD &amp; Streaming - Netflix, Amazon, iTunes, DVD | Rotten Tomatoes" data-pageDescription="List of Top Rentals playing on Netflix, Amazon, iTunes, HBO and DVD. Sort by critic rating, filter by genre, watch trailers and read reviews." data-title="TOP DVD &amp; STREAMING"><a href="#">Top DVD &amp; Streaming</a></li>
+                        <li data-type="dvd-streaming-new" data-tabTitle="New Releases - Netflix, Amazon, iTunes, DVD | Rotten Tomatoes" data-pageDescription="List of New Release movies playing on Netflix, Amazon, iTunes, HBO and DVD. Sort by critic rating, filter by genre, watch trailers and read reviews." data-title="NEW RELEASES" ><a href="#">New Releases</a></li>
+                        <li data-type="dvd-streaming-upcoming" data-tabTitle="Top Upcoming - Netflix, Amazon, iTunes, DVD | Rotten Tomatoes" data-pageDescription="List of movies coming soon to Netflix, Amazon, iTunes, DVD and HBO. Sort by critic rating, filter by genre, watch trailers and read reviews." data-title="COMING SOON ON DVD & STREAMING" ><a href="#">Coming Soon</a></li>
+                        <li data-type="cf-dvd-streaming-all" data-tabTitle="Certified Fresh - Netflix, Amazon, iTunes, DVD | Rotten Tomatoes" data-pageDescription="Check out what movies are Certified Fresh on Netflix, Amazon, iTunes, DVD and HBO. Sort by critic rating, filter by genre, watch trailers and read reviews." data-title="CERTIFIED FRESH MOVIES ON DVD & STREAMING" ><a href="#">Certified Fresh Movies</a></li>
+                        <li data-type="header" class="nav-header mb-navheader"><h3>TV</h3></li>
+                        <li data-type="tv-list-1" data-tabTitle="Top TV Shows - New TV Tonight | Rotten Tomatoes" data-pageDescription="Discover TV shows to watch - premieres, new episodes tonight and Certified Fresh shows as rated by critics. Read reviews and watch clips and interviews." data-title="New TV Tonight"><a href="#">New TV Tonight</a></li>
+                        <li data-type="tv-list-2" data-tabTitle="Top TV Shows - Most Popular TV on RT | Rotten Tomatoes" data-pageDescription="Discover TV shows to watch - premieres, new episodes tonight and Certified Fresh shows as rated by critics. Read reviews and watch clips and interviews." data-title="Most Popular TV on RT"><a href="#">Most Popular TV on RT</a></li>
+                        <li data-type="tv-list-3" data-tabTitle="Top TV Shows - Certified Fresh TV | Rotten Tomatoes" data-pageDescription="Discover TV shows to watch - premieres, new episodes tonight and Certified Fresh shows as rated by critics. Read reviews and watch clips and interviews." data-title="Certified Fresh TV"><a href="#">Certified Fresh TV</a></li>
+                    </ul>
+                </nav>
+                <div id="tomatometer-info">
+                    <div class="tableCenterDiv">
+                        <img src="https://staticv2-4.rottentomatoes.com/static/images/icons/cf-lg.png">
+                    </div>
+                    <p>
+                        Movies and TV shows are Certified Fresh with a steady Tomatometer of 75% or higher after
+                        a set amount of reviews (80 for wide-release movies, 40 for limited-release movies, 20
+                        for TV shows), including 5 reviews from Top Critics.
+                    </p>
+                    <a style="text-decoration:none;cursor:pointer" id="header-whats-the-tomatometer" href="/about#whatisthetomatometer">What's the Tomatometer?</a>
+                </div>
+            </div>
+            <div id="content-column" class="col-center-right col-full-xs" style="visibility:hidden">
+                <div id="page-title" class="main-column-item">
+                    <div class="hidden-xs">
+                        <h1>COMING SOON TO THEATERS</h1>
+                    </div>
+                    <nav id="mobile-browser-navigator" class="visible-xs btn-group btn-primary-border-dropdown btn-container-full-width">
+                        <button type="button" class="dropdown-toggle btn btn-primary-border" data-toggle="dropdown" aria-expanded="false">
+                            COMING SOON TO THEATERS<span class="fontelloIcon icon-down-dir"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li data-type="header" class="nav-header mb-navheader"><h3>IN THEATERS</h3></li>
+                            <li data-type="opening" class="mb-nav-item" data-title="OPENING THIS WEEK"><a href="#">Opening This Week</a></li>
+                            <li data-type="in-theaters" class="mb-nav-item" data-title="TOP BOX OFFICE"><a href="#">Top Box Office</a></li>
+                            <li data-type="upcoming" class="mb-nav-item" data-title="COMING SOON TO THEATERS"><a href="#">Coming Soon</a></li>
+                            <li data-type="cf-in-theaters" class="mb-nav-item" data-title="CERTIFIED FRESH MOVIES IN THEATERS"><a href="#">Certified Fresh Movies</a></li>
+                            <li data-type="header" class="nav-header mb-navheader"><h3>DVD & STREAMING MOVIES</h3></li>
+                            <li data-type="dvd-streaming-all" class="mb-nav-item" data-title="BROWSE ALL DVDS &amp; STREAMING"><a href="#">Browse All DVDs &amp; Streaming</a></li>
+                            <li data-type="top-dvd-streaming" class="mb-nav-item" data-title="TOP DVD &amp; STREAMING"><a href="#">Top DVD &amp; Streaming</a></li>
+                            <li data-type="dvd-streaming-new" class="mb-nav-item" data-title="NEW RELEASES"><a href="#">New Releases</a></li>
+                            <li data-type="dvd-streaming-upcoming" class="mb-nav-item" data-title="COMING SOON ON DVD & STREAMING"><a href="#">Coming Soon</a></li>
+                            <li data-type="cf-dvd-streaming-all" class="mb-nav-item" data-title="CERTIFIED FRESH MOVIES ON DVD & STREAMING"><a href="#">Certified Fresh Movies</a></li>
+                            <li data-type="header" class="nav-header mb-navheader"><h3>TV</h3></li>
+                            <li data-type="tv-list-1" class="mb-nav-item" data-title="New TV Tonight"><a href="#">New TV Tonight</a></li>
+                            <li data-type="tv-list-2" class="mb-nav-item" data-title="Most Popular TV on RT"><a href="#">Most Popular TV on RT</a></li>
+                            <li data-type="tv-list-3" class="mb-nav-item" data-title="Certified Fresh TV"><a href="#">Certified Fresh TV</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="visible-xs btn-primary-border-dropdown btn-container-full-width" style="margin-top:10px">
+                    <button id="filterModalBtn" type="button" class="btn btn-primary-border" data-toggle="modal" data-target="#filterModal">
+                        <div><span class="fontelloIcon icon-filter" /><span class="defaultText bold">Tap to sort/filter</span></div>
+                    </button>
+                </div>
+                <nav class="topbar-container hidden-xs">
+                    <ul class="topbar box filtermenu">
+                        <li class="topbarItem phm btn-group hidden" id="service-dropdown">
+                            <button type="button" data-toggle="dropdown" class="btn btn-borderless">
+                                <div class="down-arrow">
+                                    <div class="service filtersiteicon fandango_now selected" data-site="fandango_now"></div>
+                                    <div class="service filtersiteicon netflix selected" data-site="netflix_iw"></div>
+                                    <div class="service filtersiteicon apple selected" data-site="itunes"></div>
+                                    <div class="service filtersiteicon amazonprime selected" data-site="amazon_prime"></div>
+                                    <div class="service filtersiteicon amazoninstant selected" data-site="amazon"></div>
+                                    <div class="service filtersiteicon hbogo selected" data-site="hbo_go"></div>
+                                    <div class="service filtersiteicon vudu selected" data-site="vudu"></div>
+                                </div>
+                            </button>
+                            <div class="dropdown-menu">
+                                <h3>Show me movies available on...</h3>
+                                <div class="group">
+                                    <div class="service" data-site="fandango_now"><input class="filter-checkbox" type="checkbox" value="fandango_now" /><label>FandangoNOW <a class="only" href="#">only</a></label></div>
+<div class="service" data-site="netflix_iw"><input class="filter-checkbox" type="checkbox" value="netflix_iw" /><label>Netflix Streaming <a class="only" href="#">only</a></label></div>
+<div class="service" data-site="itunes"><input class="filter-checkbox" type="checkbox" value="itunes" /><label>iTunes <a class="only" href="#">only</a></label></div>
+<div class="service" data-site="amazon_prime"><input class="filter-checkbox" type="checkbox" value="amazon_prime" /><label>Amazon Prime <a class="only" href="#">only</a></label></div>
+<div class="service" data-site="amazon"><input class="filter-checkbox" type="checkbox" value="amazon" /><label>Amazon <a class="only" href="#">only</a></label></div>
+<div class="service" data-site="hbo_go"><input class="filter-checkbox" type="checkbox" value="hbo_go" /><label>HBO<a class="only" href="#">only</a></label></div>
+<div class="service" data-site="vudu"><input class="filter-checkbox" type="checkbox" value="vudu" /><label>Vudu <a class="only" href="#">only</a></label></div>
+<script>
+    
+        $("div.service input").prop("checked", true);
+    </script></div>
+                                <h3 class="clearfix">
+                                    <div class="fr mts">
+                                        <a href="javascript:void(0)" class="selectall">Select All</a>
+                                    </div>
+                                </h3>
+                            </div>
+                        </li>
+                        <li id="tomatometerFilter" class="tomatometerFilter topbarItem phm btn-group">
+                            <button type="button" data-toggle="dropdown" class="btn btn-borderless">
+                                <span class="tomatometerScore summary down-arrow tomato-dropdown" id="tomato-dropdown" >
+                                    <span class="icon tiny rotten"></span>0% -<span class="icon tiny fresh"></span>100%
+                                </span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="tomatometerFilter">
+                                <li>
+                                    <h3>Tomatometer</h3>
+                                    <div class="slider-wrapper">
+                                        <div class="slider"></div>
+                                    </div>
+                                    <form id="certified-fresh-form" class="form-inline" role="form">
+                                        <div id="certified-fresh-checkbox" class="certified-fresh-checkbox checkbox">
+                                            <label>
+                                                <input type="checkbox"> <span class="tMeterIcon tiny"><span class="icon tiny certified"></span></span>Certified Fresh only
+                                            </label>
+                                        </div>
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="topbarItem phm btn-group" id="genre-dropdown">
+                            <button type="button" data-toggle="dropdown" class="btn btn-borderless">
+                                Genre:
+                                <span class="bold summary down-arrow">
+                                    
+                                            All
+                                        </span>
+                            </button>
+                            <div class="dropdown-menu options">
+                                <div class="genres">
+                                    <div class="genre"><input class="filter-checkbox" type="checkbox" value="1" data-genre="Action" /><label>Action<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="2" data-genre="Animation"/><label>Animation<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="4" data-genre="Art & Foreign"/><label>Art & Foreign<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="5" data-genre="Classics"/><label>Classics<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="6" data-genre="Comedy"/><label>Comedy<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="8" data-genre="Documentary"/><label>Documentary<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="9" data-genre="Drama"/><label>Drama<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="10" data-genre="Horror"/><label>Horror<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="11" data-genre="Kids & Family"/><label>Kids & Family<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="13" data-genre="Mystery"/><label>Mystery<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="18" data-genre="Romance"/><label>Romance<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="14" data-genre="Sci-fi & Fantasy"/><label>Sci-fi & Fantasy<a class="only">only</a></label></div>
+<script>
+    
+        $("div.genre input").prop("checked", true);
+    </script></div>
+                                <h3 class="clearfix">
+                                    <div class="fr mts">
+                                        <a href="#" class="selectall">Select All</a>
+                                    </div>
+                                </h3>
+                            </div>
+                        </li>
+                        <li class="topbarItem phm btn-group sortselector" id="sort-dropdown">
+                            <button type="button" data-toggle="dropdown" class="btn btn-borderless">
+                                Sort By:
+                                <div class="bold inlineBlock selector mls down-arrow">
+                                    
+                                            Release Date
+                                        </div>
+                            </button>
+                            <div class="dropdown-menu options">
+                                <div class="sortoption selected" data-sort-option="Release Date">Release Date</div>
+                                <div class="sortoption" data-sort-option="Tomatometer">Tomatometer</div>
+                                <div class="sortoption hidden" data-sort-option="Popularity">Popularity</div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="count-link" class="main-column-item">
+                    <div id="view-icon-grp" class="pull-right">
+                        <div class="btn-group">
+                            <a id="grid-view-icon" class="btn active view-icon">
+                                <span class="fontelloIcon icon-grid" />
+                            </a>
+                            <a id="list-view-icon" class="btn view-icon">
+                                <span class="fontelloIcon icon-list" />
+                            </a>
+                        </div>
+                    </div>
+                    <span id="showing-count">Showing  of </span>
+                    <a id="boxoffice-earnings-link" href="/browse/box-office/" style="display:none">
+                        <div id="dollar-icon">
+                            <span class="glyphicon glyphicon-usd"></span>
+                        </div>
+                        Weekend Box Office Earnings
+                    </a>
+                </div>
+                <div id="movies-collection">
+                    <section class="mb-movies" style="opacity:1">
+                        </section>
+                </div>
+                <div id="show-more-btn" class="main-column-item hidden">
+                    <button type="button" class="btn btn-secondary-rt mb-load-btn">Show More</button>
+                </div>
+            </div>
+            <div id="filterModal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Search Filter</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="servicelist group hidden">
+                                <h3>Show me movies available on...</h3>
+                                <div>
+                                    <div class="service" data-site="fandango_now"><input class="filter-checkbox" type="checkbox" value="fandango_now" /><label>FandangoNOW <a class="only" href="#">only</a></label></div>
+<div class="service" data-site="netflix_iw"><input class="filter-checkbox" type="checkbox" value="netflix_iw" /><label>Netflix Streaming <a class="only" href="#">only</a></label></div>
+<div class="service" data-site="itunes"><input class="filter-checkbox" type="checkbox" value="itunes" /><label>iTunes <a class="only" href="#">only</a></label></div>
+<div class="service" data-site="amazon_prime"><input class="filter-checkbox" type="checkbox" value="amazon_prime" /><label>Amazon Prime <a class="only" href="#">only</a></label></div>
+<div class="service" data-site="amazon"><input class="filter-checkbox" type="checkbox" value="amazon" /><label>Amazon <a class="only" href="#">only</a></label></div>
+<div class="service" data-site="hbo_go"><input class="filter-checkbox" type="checkbox" value="hbo_go" /><label>HBO<a class="only" href="#">only</a></label></div>
+<div class="service" data-site="vudu"><input class="filter-checkbox" type="checkbox" value="vudu" /><label>Vudu <a class="only" href="#">only</a></label></div>
+<script>
+    
+        $("div.service input").prop("checked", true);
+    </script></div>
+                                <h3 class="clearfix">
+                                    <div class="fr mts">
+                                        <a href="javascript:void(0)" class="selectall">Select All</a>
+                                    </div>
+                                </h3>
+                            </div>
+                            <div class="tomatometerFilter">
+                                <span class="pull-right tomatometerScore summary tomato-dropdown">
+                                    <span class="icon tiny rotten"></span>
+                                    0% -
+                                    <span class="icon tiny fresh"></span>
+                                    100%
+                                </span>
+                                <h3>Tomatometer</h3>
+                                <div class="slider-wrapper">
+                                    <div class="slider"></div>
+                                </div>
+                                <form class="certified-fresh-form form-inline" role="form">
+                                    <div class="certified-fresh-checkbox checkbox">
+                                        <label>
+                                            <input type="checkbox"> <span class="tMeterIcon tiny"><span class="icon tiny certified"></span></span>Certified Fresh only
+                                        </label>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="genre-list">
+                                <div class="fr mts">
+                                    <a href="javascript:void(0)" class="selectall">
+                                        Select All
+                                    </a>
+                                </div>
+                                <h3>Genre</h3>
+                                <div class="genre"><input class="filter-checkbox" type="checkbox" value="1" data-genre="Action" /><label>Action<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="2" data-genre="Animation"/><label>Animation<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="4" data-genre="Art & Foreign"/><label>Art & Foreign<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="5" data-genre="Classics"/><label>Classics<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="6" data-genre="Comedy"/><label>Comedy<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="8" data-genre="Documentary"/><label>Documentary<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="9" data-genre="Drama"/><label>Drama<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="10" data-genre="Horror"/><label>Horror<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="11" data-genre="Kids & Family"/><label>Kids & Family<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="13" data-genre="Mystery"/><label>Mystery<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="18" data-genre="Romance"/><label>Romance<a class="only">only</a></label></div>
+<div class="genre"><input class="filter-checkbox" type="checkbox" value="14" data-genre="Sci-fi & Fantasy"/><label>Sci-fi & Fantasy<a class="only">only</a></label></div>
+<script>
+    
+        $("div.genre input").prop("checked", true);
+    </script></div>
+                            <div class="sortselector sortlist">
+                                <h3>
+                                    Sort By:
+                                </h3>
+                                <div class="btn-group" role="group">
+                                    <button class="sortoption btn btn-primary-border btn-xs selected" data-sort-option="Release Date">Release Date</button>
+                                    <button class="sortoption btn btn-primary-border btn-xs" data-sort-option="Tomatometer">Tomatometer</button>
+                                    <button class="sortoption btn btn-primary-border btn-xs" data-sort-option="Popularity">Popularity</button>
+                                </div>
+                            </div>
+                            <div class="btn-container-full-width default-margin-vertical">
+                                <button class="btn btn-primary-rt" data-dismiss="modal" aria-label="Close">
+                                    Apply Sort/Filters
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="//player.theplatform.com/pdk/HNK2IC/tpPdkController.js?pdk=5.7.14"></script>
+        <script>
+            var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+            require(["globals"], function(RT) {
+                var loadPage = (function(adPromise) {
+                    require(["jquery", "underscore", "media-browser", "nouislider"], function($, _, mount, noUiSlider) {
+                        RT.browserUrlReady = $.Deferred();
+                        window.noUiSlider = noUiSlider;
+                        mount(
+                            document.getElementById('main-row'), '', {
+                                tvListTitle1: 'New TV Tonight',
+                                tvListTitle2: 'Most Popular TV on RT',
+                                tvListTitle3: 'Certified Fresh TV'
+                            }, {
+                                count: Number('22'),
+                                total: Number('22')
+                            },
+                            [{"id":771484268,"title":"Aladdin (2019)","url":"/m/aladdin","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"May 23","mpaaRating":"PG","synopsis":"A street rat frees a genie from a lamp, granting all of his wishes and transforming himself into a charming prince in order to marry a beautiful princess. But soon, an evil sorcerer becomes hell-bent on securing the lamp for his own sinister purposes.","synopsisType":"synopsis","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/iSHOEUdIjV_M","id":"11311142"},"posters":{"thumborId":"v1.bTsxMzAxODU5MjtqOzE4MTA1OzEyMDA7MTY4ODsyNTAw","primary":"https://resizing.flixster.com/7XxB3v7Hec_8I3eIi0nJGtzLBdU=/130x0/v1.bTsxMzAxODU5MjtqOzE4MTA1OzEyMDA7MTY4ODsyNTAw"},"actors":["Will Smith", "Naomi Scott", "Mena Massoud"]},{"id":771499564,"title":"Brightburn","url":"/m/brightburn","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"May 23","mpaaRating":"R","synopsis":"What if a child from another world crash-landed on Earth, but instead of becoming a hero to mankind, he proved to be something far more sinister?","synopsisType":"synopsis","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/fZDSfxGnk07u","id":"11311069"},"posters":{"thumborId":"v1.bTsxMzA1ODUzNztqOzE4MTA2OzEyMDA7NjA3Mjs5MDAw","primary":"https://resizing.flixster.com/wVet-T68mu8HEMV4pJfOOcDsp0M=/130x0/v1.bTsxMzA1ODUzNztqOzE4MTA2OzEyMDA7NjA3Mjs5MDAw"},"actors":["Elizabeth Banks", "David Denman", "Jackson A. Dunn "]},{"id":771386869,"title":"Godzilla: King of the Monsters","url":"/m/godzilla_king_of_the_monsters_2019","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"May 30","mpaaRating":"PG13","synopsis":"The new story follows the heroic efforts of the crypto-zoological agency Monarch as its members face off against a battery of god-sized monsters, including the mighty Godzilla, who collides with Mothra, Rodan, and his ultimate nemesis, the three-headed King Ghidorah. When these ancient super-species - thought to be mere myths - rise again, they all vie for supremacy, leaving humanity's very existence hanging in the balance.","synopsisType":"synopsis","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/cR12wFvyobtT","id":"11311635"},"posters":{"thumborId":"v1.bTsxMzA1MDgxODtqOzE4MTA2OzEyMDA7NjQ4Ozk2MA","primary":"https://resizing.flixster.com/A_l9aT62Pj5bMBXV-fRR5T30YDE=/130x0/v1.bTsxMzA1MDgxODtqOzE4MTA2OzEyMDA7NjQ4Ozk2MA"},"actors":["Vera Farmiga", "Ken Watanabe", "Sally Hawkins"]},{"id":771494406,"title":"Rocketman","url":"/m/rocketman_2019","tomatoIcon":"fresh","tomatoScore":90,"theaterReleaseDate":"May 30","mpaaRating":"R","synopsis":"It's going to be a long, long time before a rock biopic manages to capture the highs and lows of an artist's life like <em>Rocketman</em>.","synopsisType":"consensus","runtime":"2 hr. 1 min.","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/oq2kxenZiZIQ","id":"11310912"},"posters":{"thumborId":"v1.bTsxMzA3NjAzNjtqOzE4MTA2OzEyMDA7MTg4MDsyOTM0","primary":"https://resizing.flixster.com/BjY4L0b1BGb42919Tr2JbAKLTjw=/130x0/v1.bTsxMzA3NjAzNjtqOzE4MTA2OzEyMDA7MTg4MDsyOTM0"},"actors":["Taron Egerton", "Jamie Bell", "Richard Madden"]},{"id":771505241,"title":"Ma","url":"/m/ma_2019","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"May 30","mpaaRating":"NR","synopsis":"Oscar (R) winner Octavia Spencer stars as Sue Ann, a loner who keeps to herself in her quiet Ohio town. One day, she is asked by Maggie, a new teenager in town (Diana Silvers, Glass), to buy some booze for her and her friends, and Sue Ann sees the chance to make some unsuspecting, if younger, friends of her own. She offers the kids the chance to avoid drinking and driving by hanging out in the basement of her home. But there are some house rules: One of the kids has to stay sober. Don't curse. Never go upstairs. And call her \"Ma.\" But as Ma's hospitality starts to curdle into obsession, what began as a teenage dream turns into a terrorizing nightmare, and Ma's place goes from the best place in town to the worst place on earth.","synopsisType":"synopsis","runtime":"1 hr. 50 min.","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/62i2OjN2qo1w","id":"11310833"},"posters":{"thumborId":"v1.bTsxMjk5MjE2MTtwOzE4MTA1OzEyMDA7MzE1ODs1MDAw","primary":"https://resizing.flixster.com/AtI4UnK3_4Ykt0JBRSrAf0uAt3Y=/130x0/v1.bTsxMjk5MjE2MTtwOzE4MTA1OzEyMDA7MzE1ODs1MDAw"},"actors":["Octavia Spencer", "Missi Pyle", "Diana Silvers"]},{"id":771471821,"title":"Dark Phoenix","url":"/m/dark_phoenix","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"Jun 6","mpaaRating":"PG13","synopsis":"In DARK PHOENIX, the X-MEN face their most formidable and powerful foe: one of their own, Jean Grey. During a rescue mission in space, Jean is nearly killed when she is hit by a mysterious cosmic force. Once she returns home, this force not only makes her infinitely more powerful, but far more unstable. Wrestling with this entity inside her, Jean unleashes her powers in ways she can neither comprehend nor contain. With Jean spiraling out of control, and hurting the ones she loves most, she begins to unravel the very fabric that holds the X-Men together. Now, with this family falling apart, they must find a way to unite -- not only to save Jean's soul, but to save our very planet from aliens who wish to weaponize this force and rule the galaxy.","synopsisType":"synopsis","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/UhjS9wUsl833","id":"11311834"},"posters":{"thumborId":"v1.bTsxMzA3MjAwMztqOzE4MTA2OzEyMDA7MjAwMDsyOTYz","primary":"https://resizing.flixster.com/IdoIf7dXj-U5eVjw9F6A4hipxEY=/130x0/v1.bTsxMzA3MjAwMztqOzE4MTA2OzEyMDA7MjAwMDsyOTYz"},"actors":["James McAvoy", "Michael Fassbender", "Jennifer Lawrence"]},{"id":771502251,"title":"Asterix: The Secret of the Magic Pouch","url":"/m/asterix_the_secret_of_the_magic_potion","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"Jun 6","mpaaRating":"NR","synopsis":"A fall during the picking of mistletoe led Druid Getafix to make a decision: he will travel through Gaul with Asterix, Obelix and Pectin in search of a young talented druide to guarantee the future of the village. He must indeed find the one who will take his suite and to whom he will transmit the Secret of the Magic Potion. Sulfurix, an evil druid, intends to take advantage to steal this secret ...","synopsisType":"synopsis","runtime":"1 hr. 25 min.","posters":{"thumborId":"v1.bTsxMjkzMjYxMTtqOzE4MTA0OzEyMDA7MTc0MDsyMzIw","primary":"https://resizing.flixster.com/7wQvZLHM7BVSMl8VTLlfuPKjuRo=/130x0/v1.bTsxMjkzMjYxMTtqOzE4MTA0OzEyMDA7MTc0MDsyMzIw"},"actors":["Christian Clavier", "Guillaume Briat", "Alex Lutz"]},{"id":771485157,"title":"Men In Black: International","url":"/m/men_in_black_international","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"Jun 13","mpaaRating":"NR","synopsis":"The Men in Black have always protected the Earth from the scum of the universe. In this new adventure, they tackle their biggest, most global threat to date: a mole in the Men in Black organization.","synopsisType":"synopsis","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/fTSbb92Ab6Zp","id":"11311656"},"posters":{"thumborId":"v1.bTsxMzA1OTEzMjtqOzE4MTA2OzEyMDA7NjA3Mjs5MDAw","primary":"https://resizing.flixster.com/rJ3RDRnsVWmi6OcG5jZkc8VeDwo=/130x0/v1.bTsxMzA1OTEzMjtqOzE4MTA2OzEyMDA7NjA3Mjs5MDAw"},"actors":["Chris Hemsworth", "Tessa Thompson", "Rebecca Ferguson"]},{"id":771496861,"title":"Wild Rose","url":"/m/wild_rose_2019","tomatoIcon":"certified_fresh","tomatoScore":88,"theaterReleaseDate":"Jun 13","mpaaRating":"R","synopsis":"There's no shortage of star-is-born stories, but <em>Wild Rose</em> proves they can still be thoroughly entertaining -- and marks its own transcendent moment for lead Jessie Buckley.","synopsisType":"consensus","runtime":"1 hr. 41 min.","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/iEpue5b1RHjl","id":"11311388"},"posters":{"thumborId":"v1.bTsxMzAzNjU0MztqOzE4MTA1OzEyMDA7MzAwMDs0NDQ0","primary":"https://resizing.flixster.com/0HlmPzVU0IgXtsxkLos8HcOQDEk=/130x0/v1.bTsxMzAzNjU0MztqOzE4MTA1OzEyMDA7MzAwMDs0NDQ0"},"actors":["Jessie Buckley", "Julie Walters", "Sophie Okonedo"]},{"id":771402900,"title":"Toy Story 4","url":"/m/toy_story_4","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"Jun 20","mpaaRating":"G","synopsis":"Woody (voice of Tom Hanks) has always been confident about his place in the world, and that his priority is taking care of his kid, whether that's Andy or Bonnie. So when Bonnie's beloved new craft-project-turned-toy, Forky (voice of Tony Hale), declares himself as \"trash\" and not a toy, Woody takes it upon himself to show Forky why he should embrace being a toy. But when Bonnie takes the whole gang on her family's road trip excursion, Woody ends up on an unexpected detour that includes a reunion with his long-lost friend Bo Peep (voice of Annie Potts). After years of being on her own, Bo's adventurous spirit and life on the road belie her delicate porcelain exterior. As Woody and Bo realize they're worlds apart when it comes to life as a toy, they soon come to find that's the least of their worries.","synopsisType":"synopsis","runtime":"1 hr. 30 min.","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/SzVMfDZj2J53","id":"11311217"},"posters":{"thumborId":"v1.bTsxMzAyMzkxNjtqOzE4MTA1OzEyMDA7MTA4NjsxNjA5","primary":"https://resizing.flixster.com/-ld4onZbGW2GfH6h5h8mqc0cb2k=/130x0/v1.bTsxMzAyMzkxNjtqOzE4MTA1OzEyMDA7MTA4NjsxNjA5"},"actors":["Tom Hanks", "Joan Cusack", "Tim Allen"]},{"id":771432631,"title":"The Secret Life of Pets 2","url":"/m/the_secret_life_of_pets_2","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"Jun 20","mpaaRating":"PG","synopsis":"THE SECRET LIFE OF PETS 2 will follow summer 2016's blockbuster about the lives our pets lead after we leave for work or school each day. Illumination founder and CEO Chris Meledandri and his longtime collaborator Janet Healy will produce the sequel to the comedy that had the best opening ever for an original film, animated or otherwise. THE SECRET LIFE OF PETS 2 will see the return of writer Brian Lynch (Minions) and once again be directed by Chris Renaud (Despicable Me series, Dr. Seuss' The Lorax).","synopsisType":"synopsis","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/zX8KN_xD5_E1","id":"11311870"},"posters":{"thumborId":"v1.bTsxMjk0MDk4MztqOzE4MTA0OzEyMDA7MjAwMDszMTY3","primary":"https://resizing.flixster.com/RNgVPXMBMGxJPA-yteUQdC--v6s=/130x0/v1.bTsxMjk0MDk4MztqOzE4MTA0OzEyMDA7MjAwMDszMTY3"},"actors":["Kevin Hart", "Tiffany Haddish", "Harrison Ford"]},{"id":771497876,"title":"Never Look Away (Werk ohne Autor)","url":"/m/never_look_away","tomatoIcon":"certified_fresh","tomatoScore":76,"theaterReleaseDate":"Jun 20","mpaaRating":"R","synopsis":"<em>Never Look Away</em> fills its protracted running time with the absorbing story of an incredible life -- and its impact on the singular artist who lived it.","synopsisType":"consensus","runtime":"3 hr. 9 min.","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/ANWrMhsyi_hH","id":"11309828"},"posters":{"thumborId":"v1.bTsxMjkwNzQ3MDtqOzE4MTA0OzEyMDA7NzM3OzExMDA","primary":"https://resizing.flixster.com/isPjDoTsGG4l7Lm7vwbPbDUTjMc=/130x0/v1.bTsxMjkwNzQ3MDtqOzE4MTA0OzEyMDA7NzM3OzExMDA"},"actors":["Tom Schilling", "Sebastian Koch", "Paula Beer"]},{"id":771501033,"title":"Child's Play","url":"/m/childs_play_2019","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"Jun 20","mpaaRating":"R","synopsis":"A contemporary re-imagining of the 1988 horror classic, Child's Play follows Karen (Aubrey Plaza), a single mother who gifts her son Andy (Gabriel Bateman) a Buddi doll, unaware of its more sinister nature.","synopsisType":"synopsis","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/QHAa5zS1l35Z","id":"11311589"},"posters":{"thumborId":"v1.bTsxMzA1MDYzMztqOzE4MTA2OzEyMDA7MTc3OTsyNjM2","primary":"https://resizing.flixster.com/mWuYhwI--bJGYYu4wI6BuXaib_U=/130x0/v1.bTsxMzA1MDYzMztqOzE4MTA2OzEyMDA7MTc3OTsyNjM2"},"actors":["Aubrey Plaza", "Brian Tyree Henry", "Gabriel Bateman"]},{"id":771505240,"title":"Yesterday","url":"/m/yesterday_2019","tomatoIcon":"fresh","tomatoScore":71,"theaterReleaseDate":"Jun 27","mpaaRating":"PG13","synopsis":"Jack Malik (Himesh Patel, BBC's Eastenders) is a struggling singer-songwriter in a tiny English seaside town whose dreams of fame are rapidly fading, despite the fierce devotion and support of his childhood best friend, Ellie (Lily James, Mamma Mia! Here We Go Again). Then, after a freak bus accident during a mysterious global blackout, Jack wakes up to discover that The Beatles have never existed... and he finds himself with a very complicated problem, indeed.","synopsisType":"synopsis","runtime":"1 hr. 52 min.","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/xmO5jYebsxIW","id":"11310793"},"posters":{"thumborId":"v1.bTsxMjk5MjE2MDtwOzE4MTA1OzEyMDA7MzE1ODs1MDAw","primary":"https://resizing.flixster.com/eBZpxFR5jPRVZOpiyjdHAwPPxFA=/130x0/v1.bTsxMjk5MjE2MDtwOzE4MTA1OzEyMDA7MzE1ODs1MDAw"},"actors":["Himesh Patel", "Lily James", "Kate McKinnon"]},{"id":771458355,"title":"Spider-Man: Far from Home","url":"/m/spider_man_far_from_home","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"Jul 4","mpaaRating":"NR","synopsis":"Peter Parker returns in Spider-Man: Far From Home, the next chapter of the Spider-Man: Homecoming series! Our friendly neighborhood Super Hero decides to join his best friends Ned, MJ, and the rest of the gang on a European vacation. However, Peter's plan to leave super heroics behind for a few weeks are quickly scrapped when he begrudgingly agrees to help Nick Fury uncover the mystery of several elemental creature attacks, creating havoc across the continent!","synopsisType":"synopsis","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/zBsb8ahucfv1","id":"11311750"},"posters":{"thumborId":"v1.bTsxMzA0NjcwMjtqOzE4MTA2OzEyMDA7NjA3Mjs5MDAw","primary":"https://resizing.flixster.com/rsMJ20vopGMoaygSl4Cv6iwn3mw=/130x0/v1.bTsxMzA0NjcwMjtqOzE4MTA2OzEyMDA7NjA3Mjs5MDAw"},"actors":["Tom Holland (II)", "Samuel L. Jackson", "Zendaya"]},{"id":771491667,"title":"Rory's Way (The Etruscan Smile)","url":"/m/rorys_way","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"Jul 4","mpaaRating":"NR","synopsis":"Based on the bestselling novel by José Luis Sampedro (La Sonrisa Etrusca), RORY'S WAY stars acclaimed British actor Brian Cox as Rory MacNeil, a rugged old Scotsman who reluctantly leaves his beloved isolated Hebridean island and travels to San Francisco to seek medical treatment. Moving in with his estranged son, Rory sees his life transformed through a newly found bond with his baby grandson.","synopsisType":"synopsis","runtime":"1 hr. 47 min.","posters":{"thumborId":"v1.bTsxMzA3NjA0MDtqOzE4MTA2OzEyMDA7MTY5MDsyNTAw","primary":"https://resizing.flixster.com/EEul8HwYUzaLy_A9JWc2oEMVgd4=/130x0/v1.bTsxMzA3NjA0MDtqOzE4MTA2OzEyMDA7MTY5MDsyNTAw"},"actors":["Brian Cox", "Rosanna Arquette", "J.J. Feild"]},{"id":771494360,"title":"Booksmart","url":"/m/booksmart","tomatoIcon":"fresh","tomatoScore":100,"theaterReleaseDate":"Jul 11","mpaaRating":"R","synopsis":"Fast-paced, funny, and fresh, <em>Booksmart</em> does the seemingly impossible by adding a smart new spin to the coming-of-age comedy.","synopsisType":"consensus","runtime":"1 hr. 45 min.","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/Zk1_fJoEXcqV","id":"11311459"},"posters":{"thumborId":"v1.bTsxMzAxNzc1MjtqOzE4MTA1OzEyMDA7MjAyNjszMDAx","primary":"https://resizing.flixster.com/YDZo0Mzll2ZcF5bh0UWnKYX6Ibk=/130x0/v1.bTsxMzAxNzc1MjtqOzE4MTA1OzEyMDA7MjAyNjszMDAx"},"actors":["Kaitlyn Dever", "Beanie Feldstein", "Billie Lourd"]},{"id":771497729,"title":"21 Bridges","url":"/m/21_bridges","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"Jul 11","mpaaRating":"NR","synopsis":"21 BRIDGES follows an embattled NYPD detective (Chadwick Boseman), who is thrust into a citywide manhunt for a pair of cop killers after uncovering a massive and unexpected conspiracy. As the night unfolds, lines become blurred on who he is pursuing, and who is in pursuit of him. When the search intensifies, extreme measures are taken to prevent the killers from escaping Manhattan as the authorities close all 21 BRIDGES to prevent any entry or exit from the iconic island.","synopsisType":"synopsis","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/I02Ym4W4j0Zd","id":"11311647"},"posters":{"thumborId":"v1.bTsxMzA1ODU0NTtqOzE4MTA2OzEyMDA7MTAxMzsxNTAw","primary":"https://resizing.flixster.com/eD-NCv6P39x-lznw8dbNDjgvgVs=/130x0/v1.bTsxMzA1ODU0NTtqOzE4MTA2OzEyMDA7MTAxMzsxNTAw"},"actors":["Chadwick Boseman", "Sienna Miller", "Stephan James"]},{"id":771495172,"title":"Stuber","url":"/m/stuber","tomatoIcon":"rotten","tomatoScore":57,"theaterReleaseDate":"Jul 11","mpaaRating":"NR","synopsis":"When a mild-mannered Uber driver named Stu (Kumail Nanjiani) picks up a passenger (Dave Bautista) who turns out to be a cop hot on the trail of a brutal killer, he's thrust into a harrowing ordeal where he desperately tries to hold onto his wits, his life and his five-star rating.","synopsisType":"synopsis","runtime":"1 hr. 45 min.","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/xNqzRO1wgCFe","id":"11311466"},"posters":{"thumborId":"v1.bTsxMzA0NDM1MTtqOzE4MTA1OzEyMDA7MjAyNTszMDAw","primary":"https://resizing.flixster.com/Vblqu2lCeijOpg27wt5UopCCPgA=/130x0/v1.bTsxMzA0NDM1MTtqOzE4MTA1OzEyMDA7MjAyNTszMDAw"}},{"id":771504203,"title":"Crawl","url":"/m/crawl_2019","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"Jul 11","mpaaRating":"NR","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/vZNoqIeznl_D","id":"11311724"},"posters":{"primary":"https://staticv2-4.rottentomatoes.com/static/images/redesign/poster_default_redesign.gif"},"actors":["Kaya Scodelario", "Barry Pepper", "Ross Anderson"]},{"id":771471794,"title":"The Lion King (2019)","url":"/m/the_lion_king_2019","tomatoIcon":"NA","tomatoScore":null,"theaterReleaseDate":"Jul 18","mpaaRating":"NR","synopsis":"From Disney Live Action, director Jon Favreau's all-new \"The Lion King\" journeys to the African savanna where a future king is born. Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother-and former heir to the throne-has plans of his own. The battle for Pride Rock is ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. With help from a curious pair of newfound friends, Simba will have to figure out how to grow up and take back what is rightfully his.","synopsisType":"synopsis","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/sSmWE78C7RhX","id":"11311518"},"posters":{"thumborId":"v1.bTsxMzAwNDEwMDtqOzE4MTA1OzEyMDA7MTY4ODsyNTAw","primary":"https://resizing.flixster.com/7QlRV0ltysTSit0xvzILCTQ6o1Y=/130x0/v1.bTsxMzAwNDEwMDtqOzE4MTA1OzEyMDA7MTY4ODsyNTAw"},"actors":["Donald Glover", "James Earl Jones"]},{"id":771502856,"title":"Late Night","url":"/m/late_night_2019","tomatoIcon":"fresh","tomatoScore":76,"theaterReleaseDate":"Jul 25","mpaaRating":"R","synopsis":"Smart, timely, and brought to life by a terrific cast, <em>Late Night</em> is a workplace comedy with a lot of heart -- and just as many laughs.","synopsisType":"consensus","runtime":"1 hr. 42 min.","mainTrailer":{"sourceId":"http://link.theplatform.com/s/NGweTC/media/oQRVl67igMqE","id":"11311713"},"posters":{"thumborId":"v1.bTsxMzA2MjY2MztqOzE4MTA2OzEyMDA7NDA1MDs2MDAw","primary":"https://resizing.flixster.com/MKATlxZLGlaIxDxxlSIzUtl67nw=/130x0/v1.bTsxMzA2MjY2MztqOzE4MTA2OzEyMDA7NDA1MDs2MDAw"},"actors":["Emma Thompson", "Mindy Kaling", "Hugh Dancy"]}],
+                            mps,
+                            adPromise
+                        );
+                        //Let Omniture know once the URL is updated with the filter string.
+                        RT.browserUrlReady.resolve();
+
+                        // Modal Trailer
+                        require([RT.StaticHost + "/static/dist/jspjs/modalTrailer.jsp.min.js"], function(ModalTrailer) {
+                            new ModalTrailer({ el: $("body"), vanity:'' });
+                        });
+                    });
+                });
+                if ('undefined' !== typeof Promise) {
+                    var adPromise = new Promise(function(resolve, reject) {});
+                    RT.adPromises.push(adPromise);
+                    loadPage(adPromise);
+                } else {
+                    require(["rsvp"], function(RSVP) {
+                        var adPromise = new RSVP.Promise(function(resolve, reject) {});
+                        RT.adPromises.push(adPromise);
+                        loadPage(adPromise);
+                    })
+                }
+            });
+        </script>
+    </div>
+        <script>console.info("body content:" + window.performance.now());</script>
+        <div class="sleaderboard_wrapper hidden-xs">
+		<div id="leaderboard_bottom_ad" style="margin-left:auto;margin-right:auto;display:inline-block">
+		</div>
+		<script>
+			var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+			mps._queue.gptloaded.push(function() {
+				if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+					mps.insertAd('#leaderboard_bottom_ad','bottombanner');
+				}
+			});
+		</script>
+	</div>
+<style>#skin_ad { height:0px !important; }</style>
+<div id="skin_ad"> </div>
+
+<footer id="foot" class="hidden-xs">
+    <div class="row">
+        <div class="col-xs-5 subnav">
+            <ul class="unstyled">
+                <li><a id="footer-help" class="unstyled trendingLink" href="/help_desk/">Help</a></li>
+                <li><a id="footer-about" class="unstyled trendingLink" href="/about/">About Rotten Tomatoes</a></li>
+                <li><a id="footer-tomatometer" style="cursor: pointer;" class="unstyled trendingLink" href="/about#whatisthetomatometer">What's the Tomatometer?</a></li>
+                <li><a id="footer-feedback" class="unstyled trendingLink" href="https://fandango.az1.qualtrics.com/SE/?SID=SV_cGSHgMIu5ivVwAB" target="_blank">Feedback</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-4 subnav">
+            <ul>
+                <li><a id="footer-critics" class="unstyled trendingLink" href="/help_desk/critics/">Critic Submission</a></li>
+                <li><a id="footer-licensing" class="unstyled trendingLink" href="/help_desk/licensing/">Licensing</a></li>
+                <li><a id="footer-advertise" class="unstyled trendingLink" href="//www.fandango.com/Advertising.aspx">Advertise</a></li>
+                <li><a id="footer-jobs" class="unstyled trendingLink" href="//www.fandango.com/careers">Careers</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-7 subnav center">
+            <h2><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;JOIN THE NEWSLETTER</h2>
+            <div class="default-half-margin-vertical">
+                Get the freshest reviews, news, and more delivered right to your inbox!
+            </div>
+            <div class="default-margin">
+                <a class="btn btn-primary footer-btn" href="/newsletter">
+                    Join the Newsletter!
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-8 subnav">
+            <h2>Follow Us</h2>
+            <div>
+                <a id="footer-follow-us-facebook" class="unstyled trendingLink fontelloIcon icon-facebook-squared footerIcon" href="http://www.facebook.com/rottentomatoes"></a>&nbsp;&nbsp;&nbsp;
+                <a id="footer-follow-us-twitter" class="unstyled trendingLink fontelloIcon icon-twitter footerIcon" href="http://twitter.com/rottentomatoes"></a>&nbsp;&nbsp;&nbsp;
+                <a id="footer-follow-us-instagram" class="unstyled trendingLink fontelloIcon icon-instagram footerIcon" href="https://www.instagram.com/rottentomatoes/"></a>&nbsp;&nbsp;&nbsp;
+                <a id="footer-follow-us-snapchat" class="unstyled trendingLink fontelloIcon icon-snapchat footerIcon" href="https://www.snapchat.com/add/rottentomatoes"></a>&nbsp;&nbsp;&nbsp;
+                <a id="footer-follow-us-youtube" class="unstyled trendingLink fontelloIcon icon-youtube-play footerIcon" href="http://www.youtube.com/user/rottentomatoes"></a>&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+    </div>
+    <div class="subtle" style="padding:10px">
+        <span class="easteregg">Copyright &copy; Fandango. All rights reserved.</span> <span style="color:#313131">V2</span>
+        <a id="footer-privacy" href="//www.fandango.com/PrivacyPolicy">Privacy Policy</a> |
+        <a id="footer-tos" href="//www.fandango.com/terms-and-policies">Terms and Policies</a> |
+        <a id="footer-ad-choices" href="//www.aboutads.info/choices" class="adchoices">Ad Choices</a>
+    </div>
+</footer>
+
+<footer id="mobileFoot" class="visible-xs-block">
+    <div class="white">Copyright &copy; Fandango. All rights reserved. <span style="color:#313131">V2</span></div>
+    <div class="default-margin">
+        <a href="/newsletter" class="btn btn-primary">Join Newsletter</a>
+    </div>
+    <div>
+        <a class="footerLinks" href="//www.fandango.com/terms-and-policies">Terms and Policies</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="footerLinks" href="//www.fandango.com/PrivacyPolicy">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="footerLinks" href="https://fandango.az1.qualtrics.com/SE/?SID=SV_cGSHgMIu5ivVwAB" target="_blank">Feedback</a>
+    </div>
+</footer></div>
+    <script type="text/template" class="LoginModalTemplate">
+    <div class="modal-dialog modal-sm ctHidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <h2 class="modal-title">Log In</h2>
+            </div>
+            <div class="modal-body loginForm">
+                <div class="error"></div>
+                <p>
+                    <a id="fbLoginButton" class="btn btn-primary-fb btn-lg fullWidth">
+                        <i class="fontelloIcon icon-facebook-squared"></i>
+                        Log in with Facebook
+                    </a>
+                </p>
+                <div style="border-bottom:1px solid gray;margin-bottom:10px;padding-bottom:10px;">
+                    <div style="background-color:white;left:50%;margin-left:-10px;padding:0 10px;position:absolute">OR</div>
+                </div>
+                <div class="loginInfo">
+                    <div class="form-group username">
+                        <label class="control-label" for="login_username">Email address</label>
+                        <input id="login_username" class="form-control" name="login_username" placeholder="Email Address" type="email">
+                        <span class="help-block"></span>
+                    </div>
+                    <div class="form-group password">
+                        <label class="control-label" for="login_password">Password</label>
+                        <input id="login_password" type="password" class="form-control" name="login_password" placeholder="Password">
+                        <span class="help-block"></span>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-login">Log In</button>
+                        </div>
+                    </div>
+                    <input type="hidden" name="redirectUrl" value="" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p>
+                    <a class="passwordModal" data-dismiss="modal" data-toggle="modal" data-target="#forgot-password">Forgot your password?</a><br />
+                    Don't have an account? <a class="signupModal" data-dismiss="modal" data-toggle="modal" data-target="#signup">Sign up here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/template" class="SignupModalTemplate">
+    <div class="modal-dialog ctHidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <h2 class="modal-title">Sign up for Rotten Tomatoes</h2>
+            </div>
+            <div class="modal-body">
+                <a id="fbSignUpButton" class="btn btn-primary-fb btn-lg fullWidth">
+                    <i class="fontelloIcon icon-facebook-squared"></i>
+                    Sign up with Facebook
+                </a>
+                <p class="text-center">
+                    OR
+                </p>
+                <div class="form-group col-xs-12 first_name">
+                    <label class="control-label fullWidth" for="register_first_name">
+                        First Name
+                    </label>
+                    <div class="fullWidth">
+                        <input id="register_first_name" class="form-control" name="register_first_name" />
+                    </div>
+                    <span class="help-block"></span>
+                </div>
+                <div class="form-group col-xs-12 last_name">
+                    <label class="control-label fullWidth" for="register_first_name">
+                        Last Name
+                    </label>
+                    <div class="fullWidth">
+                        <input id="register_last_name" class="form-control" name="register_last_name" />
+                    </div>
+                    <span class="help-block"></span>
+                </div>
+                <div class="form-group col-xs-24 email">
+                    <label class="control-label fullWidth" for="register_email">
+                        Email
+                    </label>
+                    <div class="fullWidth">
+                        <input id="register_email" class="form-control" name="register_email" />
+                    </div>
+                    <span class="help-block"></span>
+                </div>
+                <div class="form-group col-xs-24 password">
+                    <label class="control-label fullWidth" for="register_password">
+                        Password
+                    </label>
+                    <div class="fullWidth">
+                        <input id="register_password" class="form-control" name="register_password" type="password" />
+                    </div>
+                    <span class="help-block"></span>
+                </div>
+                <div class="form-group col-xs-24 recaptcha">
+                    <div id="recaptchaSignupBlock" class="recaptchaBlock"></div>
+                </div>
+                <div class="form-group">
+                    <div class="text-center">
+                        <p><small>
+                            By creating an account, you agree to the
+                            <a href="http://www.fandango.com/policies/privacy-policy" target="_blank">Privacy Policy</a>
+                            and <a href="http://www.fandango.com/policies/terms-and-policies" target="_blank">Terms and Policies</a>,
+                            and to receive email from Rotten Tomatoes and Fandango.
+                        </small></p>
+                        <button type="submit" class="btn btn-primary btn-signup disabled">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p class="text-center">
+                    <small>Already have an account? <a class="loginModal" data-dismiss="modal" data-toggle="modal" data-target="#login">Log in here</a></small>
+                </p>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/template" class="PasswordModalTemplate">
+    <div class="modal-dialog ctHidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <@ if (initialState) { @>
+                <h2 class="modal-title">Forgot your password</h2>
+                <@ } else { @>
+                <h2 class="modal-title">Password sent</h2>
+                <@ } @>
+            </div>
+            <div class="modal-body">
+                <@ if (initialState) { @>
+                    <@ if (errorMessage) { @>
+                        <div class="alert alert-danger alert-dismissible" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <@= errorMessage @>
+                        </div>
+                    <@ } @>
+                    <p>
+                        Please enter your email address and we will email you a new password.
+                    </p>
+                    <div class="form-group col-xs-24">
+                        <label class="control-label fullWidth" for="forgot_email_address">
+                            Email Address
+                        </label>
+                        <div class="fullWidth">
+                            <input id="forgot_email_address" class="form-control" name="forgot_email_address" />
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-submit">Submit</button>
+                <@ } else { @>
+                    <div>
+                        Check your email for a link to reset your password. <br/> <br/>
+                        NOTE: If you do not get the new password email in your inbox,
+                        check your Bulk Mail or Spam folder.
+                    </div>
+                    <a class="loginModal btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#login">
+                        Log in
+                    </a>
+                <@ } @>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/template" class="PageHeaderLoginTemplate">
+    <@ if (loggedIn) { @>
+        <div class="userDropdown dropdown ctHidden">
+            <a rel="nofollow" href="/user/id/<@= flixsterId @>">
+                <img class="userThumb" src="<@= thumbnailUrl @>" />
+                <span class="userName"><@= firstName @></span>
+                <span class="fontelloIcon icon-down-dir"></span>
+            </a>
+            <ul class="dropdown-menu roundMenu">
+                <li class="media userStats">
+                    <a rel="nofollow" class="pull-left" href="/user/id/<@= flixsterId @>/">
+                        <img src="<@= thumbnailUrl @>" width="40" alt="<@= firstName @>">
+                    </a>
+                    <div class="media-body">
+                        <div class="name">
+                            <a rel="nofollow" href="/user/id/<@= flixsterId @>/" class="unstyled articleLink name"><@= firstName @>&nbsp;<@= lastName @></a>
+                        </div>
+                        <div class="wts">
+                            <a rel="nofollow" href="/user/id/<@= flixsterId @>/wts" class="unstyled articleLink stat">
+                                <span class="glyphicon glyphicon-plus" style="color:#0C89C8"></span>
+                                <span class="count"><@= wtsCount @></span>
+                                &nbsp;Wants to See
+                            </a>
+                        </div>
+                        <div class="ratings">
+                            <a rel="nofollow" href="/user/id/<@= flixsterId @>/ratings" class="unstyled articleLink stat">
+                                <span class="glyphicon glyphicon-star" style="color:#F18714"></span>
+                                <span class="count"><@= ratingCount @></span>
+                                &nbsp;Ratings
+                            </a>
+                        </div>
+                        <div class="friends">
+                            <a rel="nofollow" href="/user/id/<@= flixsterId @>/friends" class="unstyled articleLink stat">
+                                <span class="icon friends"></span>
+                                <span class="count"><@= friendCount @></span>
+                                &nbsp;friends
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="header-top-bar-item">
+                    <a rel="nofollow" id="header-top-bar-profile" class="articleLink" href="/user/id/<@= flixsterId @>/" style="margin-bottom:-4px">Profile</a>
+                </li>
+                <li class="header-top-bar-item">
+                    <a rel="nofollow" id="header-top-bar-account" class="articleLink" href="/user/account/" style="margin-bottom:-4px">Account</a>
+                </li>
+                <li class="header-top-bar-item">
+                    <a id="header-top-bar-logout" class="logout articleLink">Log Out</a>
+                </li>
+            </ul>
+        </div>
+    <@ } else { @>
+        <a id="header-top-bar-signup" data-toggle="modal" data-target="#signup" class="signupLink login ctHidden">SIGN UP</a>
+        <span id="header-top-dash">&#124;</span><a id="header-top-bar-login" data-toggle="modal" data-target="#login" class="loginLink login ctHidden">LOG IN</a>
+    <@ } @>
+</script>
+<script type="text/template" class="PageHeaderLoginMobileTemplate">
+    <@ if (loggedIn) { @>
+        <div class="userProfile ctHidden">
+            <a rel="nofollow" class="userProfileLink" href="/user/id/<@= flixsterId @>">
+                <div class="media">
+                    <div class="pull-left">
+                        <img class="media-object" src="<@= thumbnailUrl @>" alt="<@= firstName @>" />
+                    </div>
+                    <div class="pull-right">
+                        <span class="glyphicon glyphicon-cog"/>
+                    </div>
+                    <div class="media-body">
+                        <span class="name"><@= firstName @>&nbsp;<@= lastName @></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="logoutRow ctHidden">
+            <a class="logout">
+                Logout
+            </a>
+        </div>
+
+    <@ } else { @>
+        <a data-toggle="modal" data-target="#signup" class="signupLink login ctHidden">SIGN UP</a>
+        <a data-toggle="modal" data-target="#login" class="loginLink login ctHidden">LOG IN</a>
+    <@ } @>
+</script>
+<script type="text/template" class="SocialToolsTemplate">
+    <a class="social-tools-facebook-like" title="Facebook Like"></a>
+    <a class="social-tools-facebook-share" title="Facebook Share"></a>
+    <a class="social-tools-twitter" title="Twitter"></a>
+    <a class="social-tools-pinterest" title="Pinterest"></a>
+    <a class="social-tools-googleplus" title="Google+"></a>
+    <a class="social-tools-stumbleupon" title="StumbleUpon"></a>
+    <@ if (forumLink) { @>
+        <a href="<@= forumLink @>" class="social-tools-comments" title="Forums"></a>
+    <@ } @>
+</script>
+<script>
+require(["https://staticv2-4.rottentomatoes.com/static/dist/jspjs/bodyScript.tag.min.js"], function(PageLoad) {
+    PageLoad();
+});
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onRecaptchaCallback&render=explicit" async defer></script>
+<script>
+    $(".easteregg").click(function () {
+        alert(window.location.href + " \n/lists/media.browser.jsp \nip-10-25-27-125 (AU) \nGA:empty");
+    });
+</script><script>
+        require(["globals"], function(RT) {
+            var invokeAds = function() {
+                mps.writeFooter && mps.writeFooter();
+            };
+            if ('undefined' !== typeof Promise) {
+                Promise.all(RT.adPromises).then(invokeAds);
+            } else {
+                require(["rsvp"], function(RSVP) {
+                    RSVP.all(RT.adPromises).then(invokeAds);
+                });
+            }
+        });
+    </script>
+
+    <script type='text/javascript'>
+        var _sf_async_config = _sf_async_config || {};
+        /** CONFIGURATION START **/
+        _sf_async_config.sections = "movie";
+        _sf_async_config.authors = 'rt-staff'; 
+
+        /** CONFIGURATION END **/
+        (function() {
+            function loadChartbeat() {
+                window._sf_endpt = (new Date()).getTime();
+                var e = document.createElement('script');
+                e.setAttribute('language', 'javascript');
+                e.setAttribute('type', 'text/javascript');
+
+                e.setAttribute('src', '//static.chartbeat.com/js/chartbeat_video.js');
+                document.body.appendChild(e);
+            }
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != 'function') ?
+                    loadChartbeat : function() {
+                oldonload();
+                loadChartbeat();
+            };
+        })();
+    </script>
+
+    <script type="text/javascript">_satellite.pageBottom();</script>
+    
+    <script>console.info("body-bottom" + window.performance.now());</script>
+</body>
+</html>
+
